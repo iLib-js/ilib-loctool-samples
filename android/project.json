@@ -2,7 +2,7 @@
     "name": "sample",
     "id": "sample",
     "projectType": "android",
-    "sourceLocale": "en-KR",
+    "sourceLocale": "en-US",
     "pseudoLocale": "zxx-XX",
     "resourceDirs": {
         "java":"resources"
