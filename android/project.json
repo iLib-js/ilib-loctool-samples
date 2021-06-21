@@ -1,0 +1,25 @@
+{
+    "name": "sample",
+    "id": "sample",
+    "projectType": "android",
+    "sourceLocale": "en-KR",
+    "pseudoLocale": "zxx-XX",
+    "resourceDirs": {
+        "java":"resources"
+    },
+    "resourceFileTypes": {
+        "java":"ilib-loctool-android-resource"
+    },
+    "plugins": [
+        "ilib-loctool-android-resource"
+    ],
+    "excludes": [
+        ".*"
+    ],
+    "settings": {
+        "xlifsDir": "./xliffs",
+        "locales":[
+            "ko-KR"
+        ]
+    }
+}

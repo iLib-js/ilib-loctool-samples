@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+  <file original="strings.xml" source-language="en-US" target-language="ko-KR" product-name="sample">
+    <body>
+      <trans-unit id="1" resname="foobar" restype="string" datatype="plaintext">
+        <source>thank</source>
+        <target>고마워</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
