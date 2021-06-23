@@ -1,7 +1,7 @@
 {
     "name": "sample",
     "id": "sample",
-    "projectType": "custom",
+    "projectType": "android",
     "sourceLocale": "en-US",
     "pseudoLocale": "zxx-XX",
     "resourceDirs": {
