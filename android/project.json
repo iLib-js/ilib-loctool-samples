@@ -5,7 +5,7 @@
     "sourceLocale": "en-US",
     "pseudoLocale": "zxx-XX",
     "resourceDirs": {
-        "java":"resources"
+        "java":"res"
     },
     "resourceFileTypes": {
         "java":"ilib-loctool-android-resource"
@@ -15,7 +15,8 @@
     ],
     "excludes": [
         ".*",
-		"node_modules"
+		"node_modules",
+		"xliffs"
     ],
     "settings": {
         "xliffsDir": "./xliffs",
