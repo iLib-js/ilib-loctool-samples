@@ -1,7 +1,7 @@
 {
     "name": "sample",
     "id": "sample",
-    "projectType": "android",
+    "projectType": "custom",
     "sourceLocale": "en-US",
     "pseudoLocale": "zxx-XX",
     "resourceDirs": {
@@ -14,10 +14,11 @@
         "ilib-loctool-android-resource"
     ],
     "excludes": [
-        ".*"
+        ".*",
+		"node_modules"
     ],
     "settings": {
-        "xlifsDir": "./xliffs",
+        "xliffsDir": "./xliffs",
         "locales":[
             "ko-KR"
         ]

@@ -1,0 +1,11 @@
+{
+	"name": "sample",
+	"version": "1.0.0",
+	"scripts": {
+		"loc": "loctool"
+	},
+	"devDependencies": {
+		"ilib-loctool-android-resource": "^1.0.0",
+		"loctool": "^2.14.0"
+	}
+}
