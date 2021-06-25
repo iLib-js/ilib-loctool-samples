@@ -1,0 +1,33 @@
+{
+    "name": "sample-md",
+    "id": "sample-md",
+    "projectType": "custom",
+    "sourceLocale": "en-US",
+    "pseudoLocale": "zxx-XX",
+    "resourceDirs": {
+        "java":"res"
+    },
+    "resourceFileTypes": {
+        "java":"ilib-loctool-android-resource"
+    },
+    "plugins": [
+        "ilib-loctool-ghfm"
+    ],
+    "excludes": [
+        "node_modules",
+        "xliffs"
+    ],
+    "settings": {
+        "xliffsDir": "./xliffs",
+        "locales":[
+            "ko-KR"
+        ],
+        "markdown": {
+            "mappings": {
+                "**/en-US/*.md": {
+                    "template": "[dir]/[locale]/[filename]"
+                }
+            }
+        }
+    }
+}
