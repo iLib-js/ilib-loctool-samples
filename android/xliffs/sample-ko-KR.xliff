@@ -8,4 +8,12 @@
       </trans-unit>
     </body>
   </file>
+  <file original="res/layout/t1.xml" source-language="en-US" target-language="ko-KR" product-name="sample">
+    <body>
+      <trans-unit id="11" resname="text_Unlimited_Gigabytes_of_Data" restype="string" datatype="x-android-resource">
+        <source>Unlimited Gigabytes of Data</source>
+        <target>무제한 기가 바이트 데이터</target>
+      </trans-unit>
+    </body>
+  </file>
 </xliff>

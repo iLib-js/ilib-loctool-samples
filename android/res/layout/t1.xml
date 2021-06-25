@@ -47,5 +47,5 @@
         android:layout_marginTop="@dimen/ask_picker_row_button_marginTop"
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
-        android:text="@string/text_Choose"/>
+        android:text="Choose"/>
 </LinearLayout>
