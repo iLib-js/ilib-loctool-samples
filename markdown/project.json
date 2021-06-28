@@ -7,25 +7,25 @@
     "resourceDirs": {
         "java":"res"
     },
-    "resourceFileTypes": {
-        "java":"ilib-loctool-android-resource"
-    },
     "plugins": [
         "ilib-loctool-ghfm"
     ],
     "excludes": [
         "node_modules",
-        "xliffs"
+        "xliffs",
+        "locale"
     ],
     "settings": {
         "xliffsDir": "./xliffs",
         "locales":[
-            "ko-KR"
+            "ko-KR",
+            "nl-NL"
         ],
         "markdown": {
             "mappings": {
                 "**/en-US/*.md": {
-                    "template": "[dir]/[locale]/[filename]"
+                    "template": "locale/[locale]/[filename]",
+                    "frontmatter": ["Title", "Description"]
                 }
             }
         }
