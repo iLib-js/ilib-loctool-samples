@@ -13,5 +13,22 @@
   <string name="thanked">Thanked</string>
   <string name="thanked_note">Leave a note?</string>
   <string name="r707551335">{meeting_time} with {friend_name}</string>
+  <plurals name="app_recommend2" i18n="Make sure {start} and {end} are surrounding the translated words of '1 friend' or '%d friends'.">
+    <item quantity="one">
+      {start}1 friend{end} recommends this app
+    </item>
+    <item quantity="other">
+      {start}%d friends{end} recommend this app
+    </item>
+  </plurals>
+  <string-array name="days">
+    <item>Sunday</item>
+    <item>Monday</item>
+    <item>Tuesday</item>
+    <item>Wednesday</item>
+    <item>Thursday</item>
+    <item>Friday</item>
+    <item>Satday</item>
+  </string-array>
 </resources>
   
