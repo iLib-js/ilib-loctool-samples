@@ -31,7 +31,7 @@
         <target>금요일</target>
       </trans-unit>
       <trans-unit id="17" resname="days" restype="array" datatype="x-android-resource" extype="6">
-        <source>Satday</source>
+        <source>Saturday</source>
         <target>토요일</target>
       </trans-unit>
     </body>
