@@ -1,0 +1,16 @@
+{
+	"name": "sample",
+	"description": "Sample localization project",
+	"repository": "git@github.com:iLib-js/ilib-loctool-samples.git",
+	"license": "Apache-2.0",
+	"version": "1.0.0",
+	"scripts": {
+		"loc": "loctool",
+		"debug": "node --inspect-brk node_modules/loctool/loctool.js"
+	},
+	"devDependencies": {
+		"ilib-loctool-android-resource": "^1.0.1",
+		"ilib-loctool-android-layout": "^1.0.1",
+		"loctool": "^2.14.0"
+	}
+}
