@@ -6,7 +6,8 @@
 	"version": "1.0.0",
 	"scripts": {
 		"loc": "loctool",
-		"debug": "node --inspect-brk node_modules/loctool/loctool.js"
+		"debug": "node --inspect-brk node_modules/loctool/loctool.js",
+		"clean": "rm -rf *.xliff res/values-* res/values/strings-auto.xml"
 	},
 	"devDependencies": {
 		"ilib-loctool-android-resource": "^1.0.1",
