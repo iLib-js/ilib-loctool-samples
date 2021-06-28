@@ -6,10 +6,11 @@
 	"version": "1.0.0",
 	"scripts": {
 		"loc": "loctool",
-		"debug": "node --inspect-brk node_modules/loctool/loctool.js"
+		"debug": "node --inspect-brk node_modules/loctool/loctool.js",
+		"clean": "rm -r *.xliff locale"
 	},
 	"devDependencies": {
 		"ilib-loctool-ghfm": "^1.8.1",
-		"loctool": "^2.14.0"
+		"loctool": "^2.14.1"
 	}
 }

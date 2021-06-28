@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="1" resname="Title" restype="string" datatype="x-yaml">
         <source>Readme for the Github-Flavored Markdown Sample</source>
-        <source>Readme voor het Github-flavored markdown voorbeeld</source>
+        <target>Readme voor het Github-flavored markdown voorbeeld</target>
       </trans-unit>
     </body>
   </file>
@@ -39,6 +39,10 @@ Hier is een &lt;c3&gt;link&lt;/c3&gt; dat is ook gelokaliseerd.</target>
 not touch, this plugin converts them into xml-like components.</source>
         <target>Wanneer er syntaxis in markdown die de vertalers niet aanraken
 zouden moeten, zet deze plug-in ze om in xml-achtige componenten.</target>
+      </trans-unit>
+      <trans-unit id="6" resname="r906565896" restype="string" datatype="markdown">
+        <source>http://www.sample.com/url/that/will/be/localized</source>
+        <target state="translated">http://www.sample.nl/url/that/will/be/localized</target>
       </trans-unit>
     </body>
   </file>
