@@ -4,9 +4,6 @@
     "projectType": "custom",
     "sourceLocale": "en-US",
     "pseudoLocale": "zxx-XX",
-    "resourceDirs": {
-        "java":"res"
-    },
     "plugins": [
         "ilib-loctool-ghfm"
     ],

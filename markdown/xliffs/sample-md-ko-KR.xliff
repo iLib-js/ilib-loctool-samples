@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2">
-  <file original="md/en-US/README.md" source-language="en-US" product-name="sample-md">
+  <file original="md/en-US/README.md" source-language="en-US" target-language="ko-KR" product-name="sample-md">
     <body>
       <trans-unit id="1" resname="Title" restype="string" datatype="x-yaml">
         <source>Readme for the Github-Flavored Markdown Sample</source>
