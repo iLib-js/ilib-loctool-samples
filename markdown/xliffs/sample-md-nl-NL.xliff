@@ -6,10 +6,6 @@
         <source>Readme for the Github-Flavored Markdown Sample</source>
         <target>Readme voor het Github-flavored markdown voorbeeld</target>
       </trans-unit>
-    </body>
-  </file>
-  <file original="md/en-US/README.md" source-language="en-US" target-language="nl-NL" product-name="sample-md">
-    <body>
       <trans-unit id="1" resname="r911920644" restype="string" datatype="markdown">
         <source>ilib-loctool-ghfm</source>
         <target>ilib-loctool-ghfm</target>
