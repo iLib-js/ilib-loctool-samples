@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="2.0" srcLang="en-KR" trgLang="ko-KR" xmlns:l="http://ilib-js.com/loctool">
-  <file original="src/msg.js" l:project="sample-webos">
-    <group id="group_1" name="javascript">
-      <unit id="1" type="res:string" l:datatype="javascript">
+  <file id="sample-webos_f1" original="sample-webos">
+    <group id="sample-webos_g1" name="javascript">
+      <unit id="1">
+        <segment>
+          <source>EXIT APP</source>
+          <target>앱 나가기</target>
+        </segment>
+      </unit>
+      <unit id="2">
         <segment>
           <source>Hello</source>
           <target>안녕</target>
         </segment>
       </unit>
-      <unit id="2" type="res:string" l:datatype="javascript">
+      <unit id="3">
         <segment>
           <source>Thank you</source>
           <target>고마워</target>
         </segment>
       </unit>
-      <unit id="3" type="res:string" l:datatype="javascript">
-        <segment>
-          <source>Bye</source>
-          <target>잘가</target>
-        </segment>
-      </unit>
       <unit id="4">
         <segment>
-          <source>EXIT APP</source>
-          <target>앱나가기</target>
+          <source>RETRY</source>
+          <target>재시도</target>
         </segment>
       </unit>
       <unit id="5">
         <segment>
-          <source>RETRY</source>
-          <target>재시도</target>
+          <source>Bye</source>
+          <target>잘가</target>
         </segment>
       </unit>
       <unit id="6">
