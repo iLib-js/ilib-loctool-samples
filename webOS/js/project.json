@@ -17,7 +17,7 @@
     "excludes": [
         ".*",
         "xliffs",
-		"node_modules"
+        "node_modules"
     ],
     "settings": {
         "xliffsDir": "./xliffs",
