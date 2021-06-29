@@ -7,7 +7,7 @@
     "scripts": {
         "loc": "loctool",
         "debug": "node --inspect-brk node_modules/loctool/loctool.js",
-        "clean": "rm -r *.xliff locale"
+        "clean": "rm -rf *.xliff locale"
     },
     "devDependencies": {
         "ilib-loctool-ghfm": "^1.8.1",
