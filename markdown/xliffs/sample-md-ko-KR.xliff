@@ -12,11 +12,11 @@
       </trans-unit>
       <trans-unit id="4" resname="r73969288" restype="string" datatype="markdown">
         <source>Ilib loctool plugin to parse and localize Github-flavored markdown</source>
-        <target>Ilib loctool plugin 은 Github-flavored markdown을 파싱하고 지역화 합니다.</target>
+        <target>Ilib loctool plugin 은 Github-flavored markdown을 파싱하고 현지화 합니다.</target>
       </trans-unit>
       <trans-unit id="5" resname="Description" restype="string" datatype="x-yaml">
         <source>this is a sample of frontmatter that can be extracted and localized</source>
-        <target>이 예제는 frontmatter 예제를 추출하고 지역화 합니다.</target>
+        <target>이 예제는 frontmatter 예제를 추출하고 현지화 합니다.</target>
       </trans-unit>
       <trans-unit id="5" resname="r342091031" restype="string" datatype="markdown">
         <source>Whenever there is syntax in the markdown that translators should
