@@ -1,5 +1,5 @@
 {
-	"name": "sample-webos",
+	"name": "sample-webos-js",
 	"description": "Sample localization project",
 	"repository": "git@github.com:iLib-js/ilib-loctool-samples.git",
 	"license": "Apache-2.0",
