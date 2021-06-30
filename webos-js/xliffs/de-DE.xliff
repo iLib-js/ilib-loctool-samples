@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="2.0" srcLang="en-KR" trgLang="de-DE" xmlns:l="http://ilib-js.com/loctool">
+  <file id="sample-webos-js_f1" original="sample-webos-js">
+    <group id="sample-webos-js_g1" name="javascript">
+      <unit id="1">
+        <segment>
+          <source>EXIT APP</source>
+          <target>APP BEENDEN</target>
+        </segment>
+      </unit>
+      <unit id="2">
+        <segment>
+          <source>Hello</source>
+          <target>Hallo</target>
+        </segment>
+      </unit>
+      <unit id="4">
+        <segment>
+          <source>RETRY</source>
+          <target>WIEDERHOLEn</target>
+        </segment>
+      </unit>
+      <unit id="5">
+        <segment>
+          <source>Bye</source>
+          <target>Auf wiedersehen</target>
+        </segment>
+      </unit>
+      <unit id="6">
+        <segment>
+          <source>SETTINGS</source>
+          <target>EINSTELLUNGEN</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>
