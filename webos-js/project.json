@@ -23,7 +23,7 @@
         "xliffsDir": "./xliffs",
         "locales":[
             "ko-KR",
-			"de-DE"
+            "de-DE"
         ]
     }
 }
