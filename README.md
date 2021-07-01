@@ -48,12 +48,17 @@ for the loctool for more details on how to do a localization cycle.
 ## What Project Types are Available?
 
 - android - a sample Android mobile app project. The source strings
-are in res/values/strings.xml and res/layout/t1.xml, and the output
-goes into res/values-[locale]/strings.xml
+are in `res/values/strings.xml` and `res/layout/t1.xml`, and the output
+goes into `res/values-[locale]/strings.xml`
 
 - markdown - a sample project containing Github-flavored markdown
-files to translate. The source file is in "md/en-US/README.md` and
+files to translate. The source file is in `md/en-US/README.md` and
 the output goes into `locale/[locale]/README.md`.
+
+- webos-js - a sample project containing JavaScript
+files to translate. It is optimized for webOS web applications
+The source files are in `src/*.js` and
+the output goes into `resources/[locale]/strings.json`.
 
 ## Mixing and Matching
 
