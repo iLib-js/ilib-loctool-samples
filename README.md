@@ -55,6 +55,11 @@ goes into res/values-[locale]/strings.xml
 files to translate. The source file is in "md/en-US/README.md` and
 the output goes into `locale/[locale]/README.md`.
 
+- webos-js - a sample project containing JavaScript
+files to translate. It is optimized for webOS web applications
+The source file is in "src/*.js` and
+the output goes into `resources/[locale]/strings.json`.
+
 ## Mixing and Matching
 
 Most projects are not homogeneous. For example, you may have a single

@@ -5,7 +5,7 @@
 	"license": "Apache-2.0",
 	"version": "1.0.0",
 	"scripts": {
-		"loc": "node node_modules/loctool/loctool.js -2 --xliffStyle custom",
+		"loc": "loctool -2 --xliffStyle custom",
 		"debug": "node --inspect-brk node_modules/loctool/loctool.js -2 --xliffStyle custom",
 		"clean": "rm -rf *.xliff resources"
 	},

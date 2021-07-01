@@ -1,5 +1,5 @@
 webappResBundle = new ResBundle({
-    basePath: "./localization/resources"
+    basePath: "../resources"
 });
 
 function setButtonsOnPage(layoutCase) {
@@ -16,9 +16,9 @@ function setButtonsOnPage(layoutCase) {
         createButtonOnPage(webappResBundle.getString("SETTINGS"), "Setting_Button", dir_tail, onLaunchGeneralSetting);
         createButtonOnPage(webappResBundle.getString("RETRY"), "Retry_Button", dir_tail, onRetryApp);
         break;
-
     default:
         createButtonOnPage(webappResBundle.getString("EXIT APP"), "ExitApp_Button", dir_head, onExitApp);
+        createButtonOnPage(webappResBundle.getString("CLOSE"), "ExitApp_Button", dir_head, onExitApp);
         break;
     }
 }

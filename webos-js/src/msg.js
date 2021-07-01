@@ -7,6 +7,9 @@ export function findMsgByCode (code) {
         case 2:
             msg.reason = $L('Thank you');
             break;
+        case 3:
+            msg.reason = $L('Congratulation');
+            break;
         default:
             msg.reason = $L('Bye');
             break;
