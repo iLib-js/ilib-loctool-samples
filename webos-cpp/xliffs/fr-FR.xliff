@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="2.0" srcLang="en-KR" trgLang="fr-FR" xmlns:l="http://ilib-js.com/loctool">
+  <file id="sample-webos-cpp_f1" original="sample-webos-cpp">
+    <group id="sample-webos-cpp_g1" name="cpp">
+      <unit id="1">
+        <segment>
+          <source>Update</source>
+          <target>Mettez à jour</target>
+        </segment>
+      </unit>
+      <unit id="2">
+        <segment>
+          <source>Cancel</source>
+          <target>Annuler</target>
+        </segment>
+      </unit>
+      <unit id="3">
+        <segment>
+          <source>Yes</source>
+          <target>Oui</target>
+        </segment>
+      </unit>
+      <unit id="4">
+        <segment>
+          <source>No</source>
+          <target>Non</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

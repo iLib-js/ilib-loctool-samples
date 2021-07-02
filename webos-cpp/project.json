@@ -16,12 +16,14 @@
     "excludes": [
         ".*",
         "xliffs",
-        "node_modules"
+        "node_modules",
+    	"resources"
     ],
     "settings": {
         "xliffsDir": "./xliffs",
         "locales":[
-            "ko-KR"
+            "ko-KR",
+    		"fr-FR"
         ],
         "resourceFileNames": {
             "cpp": "cppstrings.json"
