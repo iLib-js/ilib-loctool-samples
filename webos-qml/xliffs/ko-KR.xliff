@@ -11,13 +11,13 @@
       <unit id="2">
         <segment>
           <source>Audio</source>
-          <target >오디어</target>
+          <target >오디오</target>
         </segment>
       </unit>
       <unit id="3">
         <segment>
           <source>Now Playing</source>
-          <target >재생중</target>
+          <target >재생 중</target>
         </segment>
       </unit>
       <unit id="4">
