@@ -21,7 +21,8 @@
     "settings": {
         "xliffsDir": "./xliffs",
         "locales":[
-            "ko-KR"
+            "ko-KR",
+			"ja-JP"
         ],
         "resourceFileNames": {
             "c": "cstrings.json"
