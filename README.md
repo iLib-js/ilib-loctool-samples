@@ -60,6 +60,11 @@ files to translate. It is optimized for webOS web applications
 The source files are in `src/*.js` and
 the output goes into `resources/[locale]/strings.json`.
 
+- webos-c - a sample project containing C files to translate.
+It is optimized for webOS web applications
+The source files are in `src/*.c` and
+the output goes into `resources/[locale]/cstrings.json`.
+
 ## Mixing and Matching
 
 Most projects are not homogeneous. For example, you may have a single
