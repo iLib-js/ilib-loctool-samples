@@ -17,13 +17,13 @@
         ".*",
         "xliffs",
         "node_modules",
-    	"resources"
+        "resources"
     ],
     "settings": {
         "xliffsDir": "./xliffs",
         "locales":[
             "ko-KR",
-    		"fr-FR"
+            "fr-FR"
         ],
         "resourceFileNames": {
             "cpp": "cppstrings.json"
