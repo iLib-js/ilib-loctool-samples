@@ -1,0 +1,29 @@
+{
+    "name": "music",
+    "id": "music",
+    "projectType": "webos-qml",
+    "sourceLocale": "en-KR",
+    "pseudoLocale": ["zxx-XX", "zxx-Cyrl-XX", "zxx-Hans-XX", "zxx-Hebr-XX"],
+    "resourceDirs": {
+        "ts":"resources"
+    },
+    "resourceFileTypes": {
+        "ts":"ilib-loctool-webos-ts-resource"
+    },
+    "plugins": [
+        "ilib-loctool-webos-qml"
+    ],
+    "excludes": [
+        ".*",
+        "xliffs",
+        "node_modules",
+        "resources"
+    ],
+    "settings": {
+        "xliffsDir": "./xliffs",
+        "locales":[
+            "ko-KR",
+            "it-IT"
+        ]
+    }
+}
