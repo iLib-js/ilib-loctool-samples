@@ -60,11 +60,20 @@ files to translate. It is optimized for webOS web applications
 The source files are in `src/*.js` and
 the output goes into `resources/[locale]/strings.json`.
 
+- webos-qml - a sample project containing QML
+files to translate. It is optimized for webOS qml applications
+The source files are in `src/*.qml` and
+the output goes into `resources/[projectID]_[locale].ts`.
+
+- webos-c - a sample project containing C files to translate.
+It is optimized for webOS web applications
+The source files are in `src/*.c` and
+the output goes into `resources/[locale]/cstrings.json`.
+
 - webos-cpp - a sample project containing C++ files to translate.
 It is optimized for webOS web applications
 The source files are in `src/*.cpp` and
 the output goes into `resources/[locale]/cppstrings.json`.
-
 
 ## Mixing and Matching
 
