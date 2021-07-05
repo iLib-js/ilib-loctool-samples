@@ -70,6 +70,11 @@ It is optimized for webOS web applications
 The source files are in `src/*.c` and
 the output goes into `resources/[locale]/cstrings.json`.
 
+- webos-cpp - a sample project containing C++ files to translate.
+It is optimized for webOS web applications
+The source files are in `src/*.cpp` and
+the output goes into `resources/[locale]/cppstrings.json`.
+
 ## Mixing and Matching
 
 Most projects are not homogeneous. For example, you may have a single

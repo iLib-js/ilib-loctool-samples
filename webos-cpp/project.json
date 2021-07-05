@@ -1,0 +1,32 @@
+{
+    "name": "sample-webos-cpp",
+    "id": "sample-webos-cpp",
+    "projectType": "webos-cpp",
+    "sourceLocale": "en-KR",
+    "pseudoLocale": ["zxx-XX", "zxx-Cyrl-XX", "zxx-Hans-XX", "zxx-Hebr-XX"],
+    "resourceDirs": {
+        "json":"resources"
+    },
+    "resourceFileTypes": {
+        "json":"ilib-loctool-webos-json-resource"
+    },
+    "plugins": [
+        "ilib-loctool-webos-cpp"
+    ],
+    "excludes": [
+        ".*",
+        "xliffs",
+        "node_modules",
+        "resources"
+    ],
+    "settings": {
+        "xliffsDir": "./xliffs",
+        "locales":[
+            "ko-KR",
+            "fr-FR"
+        ],
+        "resourceFileNames": {
+            "cpp": "cppstrings.json"
+        }
+    }
+}
