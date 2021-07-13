@@ -1,0 +1,25 @@
+{
+    "name": "sample",
+    "id": "sample",
+    "projectType": "custom",
+    "sourceLocale": "en-US",
+    "pseudoLocale": "zxx-XX",
+    "resourceDirs": {
+    },
+    "resourceFileTypes": {
+    },
+    "plugins": [
+        "ilib-loctool-strings"
+    ],
+    "excludes": [
+        ".*",
+        "node_modules",
+        "xliffs"
+    ],
+    "settings": {
+        "xliffsDir": "./xliffs",
+        "locales":[
+            "ko-KR"
+        ]
+    }
+}
