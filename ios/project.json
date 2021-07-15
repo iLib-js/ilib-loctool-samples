@@ -7,6 +7,7 @@
     "resourceDirs": {
     },
     "resourceFileTypes": {
+        "strings":"ilib-loctool-strings"
     },
     "plugins": [
         "ilib-loctool-strings"
