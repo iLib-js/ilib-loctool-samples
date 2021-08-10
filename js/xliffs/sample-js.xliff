@@ -12,4 +12,16 @@
       </trans-unit>
     </body>
   </file>
+  <file original="src/t1.js" source-language="en-US" target-language="de-DE" product-name="sample-js">
+    <body>
+      <trans-unit id="2" resname="Hello" restype="string" datatype="javascript">
+        <source>Hello</source>
+        <target>Hallo</target>
+      </trans-unit>
+      <trans-unit id="3" resname="Thank you" restype="string" datatype="javascript">
+        <source>Thank you</source>
+        <target>Danke</target>
+      </trans-unit>
+    </body>
+  </file>
 </xliff>

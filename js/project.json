@@ -4,9 +4,9 @@
     "projectType": "custom",
     "sourceLocale": "en-US",
     "pseudoLocale": "zxx-XX",
-	"resourceDirs": {
-		"javascript": "resources"
-	},
+    "resourceDirs": {
+        "javascript": "resources"
+    },
     "resourceFileTypes": {
         "javascript":"ilib-loctool-javascript-resource"
     },
