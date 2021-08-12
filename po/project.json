@@ -9,12 +9,13 @@
     ],
     "excludes": [
         "node_modules",
-        "xliffs",
+        "xliffs"
     ],
     "settings": {
         "xliffsDir": "./xliffs",
         "locales":[
-            "ko-KR"
+            "ko-KR",
+            "ru-RU"
         ],
         "po": {
             "mappings": {
