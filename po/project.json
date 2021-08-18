@@ -20,7 +20,7 @@
         "po": {
             "mappings": {
                 "**/*.po": {
-                    "template": "resource/[locale].po"
+                    "template": "resources/[locale].po"
                 }
             }
         }
