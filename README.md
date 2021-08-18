@@ -55,6 +55,10 @@ goes into `res/values-[locale]/strings.xml`
 files to translate. The source file is in `md/en-US/README.md` and
 the output goes into `locale/[locale]/README.md`.
 
+- po - a sample project containing po
+files to translate. The source file is in `src/*.po` and
+the output goes into `resources/[locale].po`.
+
 - webos-js - a sample project containing JavaScript
 files to translate. It is optimized for webOS web applications
 The source files are in `src/*.js` and
