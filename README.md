@@ -51,6 +51,10 @@ for the loctool for more details on how to do a localization cycle.
 are in `res/values/strings.xml` and `res/layout/t1.xml`, and the output
 goes into `res/values-[locale]/strings.xml`
 
+- js - a sample project containing JavaScript files to translate.
+The source files are in `src/*.js` and
+the output goes into `resources/[locale].js`.
+
 - markdown - a sample project containing Github-flavored markdown
 files to translate. The source file is in `md/en-US/README.md` and
 the output goes into `locale/[locale]/README.md`.
