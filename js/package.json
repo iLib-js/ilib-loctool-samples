@@ -12,6 +12,6 @@
     "devDependencies": {
         "ilib-loctool-javascript": "^1.0.3",
         "ilib-loctool-javascript-resource": "^1.0.3",
-        "loctool": "^2.14.1"
+        "loctool": "^2.15.0"
     }
 }
