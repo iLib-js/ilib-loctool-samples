@@ -8,7 +8,6 @@
         "ilib-loctool-ghfm"
     ],
     "excludes": [
-        "node_modules",
         "xliffs",
         "locale"
     ],

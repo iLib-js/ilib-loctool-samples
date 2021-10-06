@@ -8,7 +8,6 @@
         "ilib-loctool-po"
     ],
     "excludes": [
-        "node_modules",
         "xliffs"
     ],
     "settings": {

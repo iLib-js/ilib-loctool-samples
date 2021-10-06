@@ -16,7 +16,6 @@
     "excludes": [
         ".*",
         "xliffs",
-        "node_modules",
         "resources"
     ],
     "settings": {
