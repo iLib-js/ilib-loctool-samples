@@ -10,10 +10,7 @@
         "clean": "rm -rf *.xliff locale"
     },
     "devDependencies": {
-        "ilib-loctool-xml": "^1.1.0",
-        "loctool": "^2.16.1"
-    },
-    "dependencies": {
-        "log4js": "^6.3.0"
+        "ilib-loctool-salesforce-metaxml": "^1.1.0",
+        "loctool": "^2.16.2"
     }
 }
