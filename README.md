@@ -83,6 +83,12 @@ It is optimized for webOS web applications
 The source files are in `src/*.cpp` and
 the output goes into `resources/[locale]/cppstrings.json`.
 
+- salesforce - a sample project containing a sales for apex app
+to translate. It contains the main translation-meta.xml as well
+as a number of other meta xml files that contain the source
+strings. All sources are in force-app, and the output goes
+to `force-app/main/default/translations/[locale].translation-meta.xml`
+
 ## Mixing and Matching
 
 Most projects are not homogeneous. For example, you may have a single
