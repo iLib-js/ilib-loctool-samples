@@ -12,6 +12,6 @@
 	"devDependencies": {
 		"ilib-loctool-android-resource": "^1.0.1",
 		"ilib-loctool-android-layout": "^1.0.1",
-		"loctool": "^2.15.0"
+		"loctool": "^2.16.2"
 	}
 }

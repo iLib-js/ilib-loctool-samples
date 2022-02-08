@@ -10,7 +10,7 @@
         "clean": "rm -rf *.xliff resources"
     },
     "devDependencies": {
-        "ilib-loctool-po": "^1.4.1",
-        "loctool": "^2.15.0"
+        "ilib-loctool-po": "^1.6.1",
+        "loctool": "^2.16.2"
     }
 }

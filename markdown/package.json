@@ -10,7 +10,7 @@
         "clean": "rm -rf *.xliff locale"
     },
     "devDependencies": {
-        "ilib-loctool-ghfm": "^1.8.2",
-        "loctool": "^2.15.0"
+        "ilib-loctool-ghfm": "^1.10.0",
+        "loctool": "^2.16.2"
     }
 }
