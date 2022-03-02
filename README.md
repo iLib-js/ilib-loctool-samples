@@ -89,6 +89,13 @@ as a number of other meta xml files that contain the source
 strings. All sources are in force-app, and the output goes
 to `force-app/main/default/translations/[locale].translation-meta.xml`
 
+- xml - a sample project containing xml files to translate. This
+plugin can parse arbitrary xml files given a schema definition
+in json format. (The xml is converted to json first, and then
+parsed.) The source files are in `xml` and the localized
+xml files go into the same directory. The sample files include
+some Android xml files as well as a Java xml properties file.
+
 ## Mixing and Matching
 
 Most projects are not homogeneous. For example, you may have a single
