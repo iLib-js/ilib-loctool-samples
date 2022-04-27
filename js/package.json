@@ -7,11 +7,12 @@
     "scripts": {
         "loc": "loctool",
         "debug": "node --inspect-brk node_modules/loctool/loctool.js",
-        "clean": "rm -rf *.xliff resources"
+        "clean": "rm -rf *.xliff resources",
+        "test": "echo success"
     },
     "devDependencies": {
         "ilib-loctool-javascript": "^1.0.3",
         "ilib-loctool-javascript-resource": "^1.0.3",
-        "loctool": "^2.16.2"
+        "loctool": "^2.16.3"
     }
 }
