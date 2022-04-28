@@ -55,6 +55,11 @@ goes into `res/values-[locale]/strings.xml`
 The source files are in `src/*.js` and
 the output goes into `resources/[locale].js`.
 
+- js-json - a sample project containing JavaScript files to translate
+and where the output is ilib-style json files.
+The source files are in `src/*.js` and
+the output goes into `resources/[localeDir]/strings.json`.
+
 - markdown - a sample project containing Github-flavored markdown
 files to translate. The source file is in `md/en-US/README.md` and
 the output goes into `locale/[locale]/README.md`.
