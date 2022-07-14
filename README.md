@@ -88,6 +88,11 @@ It is optimized for webOS web applications
 The source files are in `src/*.cpp` and
 the output goes into `resources/[locale]/cppstrings.json`.
 
+- webos-appinfojson - a sample project containing appinfo.json files to translate.
+It is optimized for webOS web applications
+The source files are in `appinfo.json` and
+the output goes into `resources/[locale]/appinfo.json`.
+
 - salesforce - a sample project containing a sales for apex app
 to translate. It contains the main translation-meta.xml as well
 as a number of other meta xml files that contain the source

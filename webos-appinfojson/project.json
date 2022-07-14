@@ -1,0 +1,30 @@
+{
+    "name": "sample-webos-appinfo",
+    "id": "sample-webos-appinfo",
+    "projectType": "custom",
+    "sourceLocale": "en-KR",
+    "pseudoLocale": ["zxx-XX", "zxx-Cyrl-XX", "zxx-Hans-XX", "zxx-Hebr-XX"],
+    "resourceDirs": {
+        "json": "resources"
+    },
+    "resourceFileTypes": {
+        "json":"ilib-loctool-webos-appinfo-json"
+    },
+    "plugins": [
+        "ilib-loctool-webos-appinfo-json"
+    ],
+    "excludes": [
+        ".*",
+        "xliffs"
+    ],
+    "settings": {
+        "xliffsDir": "./xliffs",
+        "locales":[
+            "ko-KR",
+            "zh-Hans-CN",
+            "zh-Hant-HK",
+            "zh-Hant-TW"
+        ]
+
+    }
+}
