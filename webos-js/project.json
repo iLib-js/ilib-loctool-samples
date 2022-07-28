@@ -16,17 +16,15 @@
     ],
     "excludes": [
         ".*",
-        "xliffs"
+        "xliffs",
+        "src/msg2.js"
     ],
     "settings": {
         "xliffsDir": "./xliffs",
         "locales":[
-            "de-DE",
             "en-US",
             "fr-CA",
-            "fr-FR",
-            "ko-KR",
-            "ko-US"
+            "fr-FR"
         ]
     }
 }
