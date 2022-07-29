@@ -19,3 +19,17 @@ export function findMsgByCode (code) {
     }
     return msg;
 }
+export function findMsgByCode2 (code) {
+    switch (code) {
+        case 1:
+            msg.reason = $L('Agree');
+            break;
+        case 2:
+            msg.reason = $L('Ivory Coast');
+            break;
+        default:
+            msg.reason = $L('Programme');
+            break;
+    }
+    return msg;
+}
