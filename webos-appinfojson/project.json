@@ -20,6 +20,8 @@
     "settings": {
         "xliffsDir": "./xliffs",
         "locales":[
+            "fr-CA",
+            "fr-FR",
             "ko-KR",
             "zh-Hans-CN",
             "zh-Hant-HK",
