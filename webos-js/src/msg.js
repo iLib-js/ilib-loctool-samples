@@ -33,3 +33,27 @@ export function findMsgByCode2 (code) {
     }
     return msg;
 }
+export function findMsgByCode3 (code) {
+    switch (code) {
+        case 1:
+            msg.reason = $L('Do you want to register a new scheduling?'); // xliff_source: feff
+            break;
+        case 2:
+            msg.reason = $L('Live TV'); // xliff_target: nbsp
+            break;
+        case 3:
+            msg.reason = $L('Space NBSP'); // xliff_source: nbsp
+            break;
+        case 4:
+            msg.reason = $L('To read the Terms and Conditions, go to Settings > Support >            Privacy & Terms.'); // multi-spaces
+            break;
+        case 5:
+            msg.reason = $L('TV Name : '); // xliff_target trim
+            break;
+        default:
+            msg.reason = $L('MAC Address'); // xliff_target trim
+            break;
+    }
+    return msg;
+}
+
