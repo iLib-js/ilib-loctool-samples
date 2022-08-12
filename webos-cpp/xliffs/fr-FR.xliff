@@ -26,6 +26,24 @@
           <target>Non</target>
         </segment>
       </unit>
+      <unit id="5">
+        <segment>
+          <source>Ivory Coast</source>
+          <target>Côte d’Ivoire</target>
+        </segment>
+      </unit>
+      <unit id="6">
+        <segment>
+          <source>Programme</source>
+          <target>Programme</target>
+        </segment>
+      </unit>
+      <unit id="7">
+        <segment>
+          <source>Agree</source>
+          <target>J'accepte</target>
+        </segment>
+      </unit>
     </group>
   </file>
 </xliff>

@@ -52,6 +52,16 @@ s        case BUTTON_LABEL_TYPE_YES:
             }
             return _gAlertButton_CANCEL;
         }
+        case BUTTON_LABEL_TYPE_AGREE:
+        {
+            if(_gResBundle != NULL)
+            {
+                localeString = (char*) resBundle_getLocString(_gResBundle, "Agree"); // i18n
+                STR_NCPY(_gAlertButton_AGREE, localeString, LABEL_LEN);
+                STR_FREE(localeString);
+            }
+            return _gAlertButton_CANCEL;
+        }
         default:
             return "UNKNOWN";
     }
