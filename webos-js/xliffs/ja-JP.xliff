@@ -4,35 +4,29 @@
     <group id="sample-webos-js_g1" name="javascript">
       <unit id="1">
         <segment>
-          <source>Do you want to register a new scheduling?﻿</source>
-          <target>新しい予約を設定しますか？</target>
-        </segment>
-      </unit>
-      <unit id="2">
-        <segment>
           <source>Live TV</source>
           <target>Live TV</target> <!-- NBSP 00a0 -->
         </segment>
       </unit>
-      <unit id="3">
+      <unit id="2">
         <segment>
           <source>Space NBSP</source> <!-- source code doesn't have nbsp -->
           <target>現実の時間とは異なり、</target>
         </segment>
       </unit>
-      <unit id="4">
+      <unit id="3">
         <segment>
           <source>To read the Terms and Conditions, go to Settings > Support >  Privacy &amp; Terms.</source>
           <target>利用規約を読むには、設定 > サポート > 利用規約 &amp; 法的情報に移動します。</target>
         </segment>
       </unit>
-      <unit id="5">
+      <unit id="4">
         <segment>
           <source>MAC Address</source>
           <target>MAC Address </target>
         </segment>
       </unit>
-      <unit id="6">
+      <unit id="5">
         <segment>
           <source>TV Name : </source>
           <target>機器名：</target>
