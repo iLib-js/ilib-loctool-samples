@@ -14,6 +14,12 @@
           <target>Channel</target>
         </segment>
       </unit>
+      <unit id="3">
+        <segment>
+          <source>TV Name : </source>
+          <target>TV Name : </target>
+        </segment>
+      </unit>
     </group>
   </file>
 </xliff>

@@ -38,6 +38,12 @@
           <target>설정</target>
         </segment>
       </unit>
+      <unit id="7">
+        <segment>
+          <source>TV Name : </source>
+          <target>TV Name :</target>
+        </segment>
+      </unit>
     </group>
   </file>
 </xliff>

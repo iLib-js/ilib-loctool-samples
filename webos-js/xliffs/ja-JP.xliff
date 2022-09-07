@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="2.0" srcLang="en-KR" trgLang="ja-JP" xmlns:l="http://ilib-js.com/loctool">
+  <file id="sample-webos-js_f1" original="sample-webos-js">
+    <group id="sample-webos-js_g1" name="javascript">
+      <unit id="1">
+        <segment>
+          <source>Live TV</source>
+          <target>Live TV</target> <!-- NBSP 00a0 -->
+        </segment>
+      </unit>
+      <unit id="2">
+        <segment>
+          <source>Space NBSP</source> <!-- source code doesn't have nbsp -->
+          <target>現実の時間とは異なり、</target>
+        </segment>
+      </unit>
+      <unit id="3">
+        <segment>
+          <source>To read the Terms and Conditions, go to Settings > Support >  Privacy &amp; Terms.</source>
+          <target>利用規約を読むには、設定 > サポート > 利用規約 &amp; 法的情報に移動します。</target>
+        </segment>
+      </unit>
+      <unit id="4">
+        <segment>
+          <source>MAC Address</source>
+          <target>MAC Address </target>
+        </segment>
+      </unit>
+      <unit id="5">
+        <segment>
+          <source>TV Name : </source>
+          <target>機器名：</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>
