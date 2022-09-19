@@ -21,13 +21,11 @@
     "settings": {
         "xliffsDir": "./xliffs",
         "locales":[
-            "de-DE",
-            "en-US",
-            "fr-CA",
-            "fr-FR",
-            "ja-JP",
-            "ko-KR",
-            "ko-US"
-        ]
+            "es-CO",
+            "es-ES"
+        ],
+        "localeMap": {
+            "es-CO": "es"
+        }
     }
 }
