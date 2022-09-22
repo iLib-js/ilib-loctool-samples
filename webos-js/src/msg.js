@@ -47,6 +47,9 @@ export function findMsgByCode3 (code) {
         case 4:
             msg.reason = $L('TV Name : '); // xliff_target trim
             break;
+        case 5:
+            msg.reason = $L('Sound Out');
+            break;
         default:
             msg.reason = $L('MAC Address'); // xliff_target trim
             break;
