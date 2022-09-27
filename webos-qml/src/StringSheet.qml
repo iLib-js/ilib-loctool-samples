@@ -11,6 +11,7 @@ AppStringSheet {
     property QtObject titleView: QtObject {
         property string musicPlayerTitle: qsTr("Audio") + es
         property string musicListTitle: qsTr("Now Playing") + es
+        property string musicListTitle: qsTr("Sound Out") + es
     }
     property QtObject categoryView: QtObject {
         property var devices: [
