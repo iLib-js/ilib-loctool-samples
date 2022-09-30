@@ -7,6 +7,8 @@
     "scripts": {
         "loc": "loctool -2 --xliffStyle custom --localeMap es-CO:es,fr-CA:fr",
         "debug": "node --inspect-brk node_modules/loctool/loctool.js -2 --xliffStyle custom --localeMap es-CO:es",
+        "loc-generate": "loctool generate -2 -x xliffs --projectType custom --sourceLocale en-KR --resourceFileTypes json=webos-json-resource --plugins webos-javascript,webos-appinfo-json -l ko-KR --projectId sample-webos-js",
+        "loc-generate-debug": "node --inspect-brk node_modules/loctool/loctool.js generate -2 -x xliffs --projectType custom --sourceLocale en-KR --resourceFileTypes json=webos-json-resource --plugins webos-javascript,webos-appinfo-json -l ko-KR --projectId sample-webos-js",
         "clean": "rm -rf *.xliff resources",
         "test": "echo success"
     },
