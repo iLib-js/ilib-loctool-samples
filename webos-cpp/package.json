@@ -5,8 +5,8 @@
     "license": "Apache-2.0",
     "version": "1.0.0",
     "scripts": {
-        "loc": "loctool -2 --xliffStyle custom",
-        "debug": "node --inspect-brk node_modules/loctool/loctool.js -2 --xliffStyle custom",
+        "loc": "loctool -2 --xliffStyle custom --localeMap es-CO:es",
+        "debug": "node --inspect-brk node_modules/loctool/loctool.js -2 --xliffStyle custom --localeMap es-CO:es",
         "loc-generate": "loctool generate -2 -x xliffs --projectType custom --sourceLocale en-KR --resourceFileTypes json=webos-json-resource --resourceFileNames json=cppstrings.json --plugins webos-cpp -l ko-KR --projectId sample-webos-cpp",
         "loc-generate-debug": "node --inspect-brk node_modules/loctool/loctool.js generate -2 -x xliffs --projectType custom --sourceLocale en-KR --resourceFileTypes json=webos-json-resource --plugins webos-cpp -l ko-KR --projectId sample-webos-cpp",
         "clean": "rm -rf *.xliff resources",
