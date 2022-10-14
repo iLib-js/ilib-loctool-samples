@@ -21,6 +21,8 @@
     "settings": {
         "xliffsDir": "./xliffs",
         "locales":[
+            "es-CO",
+            "es-ES",
             "ko-KR",
             "it-IT"
         ]
