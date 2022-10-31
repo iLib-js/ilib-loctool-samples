@@ -50,6 +50,12 @@ export function findMsgByCode3 (code) {
         case 5:
             msg.reason = $L('Sound Out');
             break;
+        case 6:
+            msg.reason = $L('TV Program Locks');
+            break;
+        case 7:
+            msg.reason = $L('Service Area Zip Code');
+            break;
         default:
             msg.reason = $L('MAC Address'); // xliff_target trim
             break;

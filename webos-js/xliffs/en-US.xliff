@@ -20,6 +20,18 @@
           <target>TV Name : </target>
         </segment>
       </unit>
+      <unit id="4">
+        <segment>
+          <source>TV Program Locks</source>
+          <target>TV Program Locks</target>
+        </segment>
+      </unit>
+      <unit id="5">
+        <segment>
+          <source>Service Area Zip Code</source>
+          <target>Service Area Zip Code</target>
+        </segment>
+      </unit>
     </group>
   </file>
 </xliff>

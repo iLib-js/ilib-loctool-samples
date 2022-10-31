@@ -13,9 +13,9 @@
         "test": "echo success"
     },
     "dependencies": {
-        "ilib-loctool-webos-appinfo-json": "^1.2.12",
-        "ilib-loctool-webos-javascript": "^1.4.7",
-        "ilib-loctool-webos-json-resource": "^1.3.11",
+        "ilib-loctool-webos-appinfo-json": "^1.3.0",
+        "ilib-loctool-webos-javascript": "^1.5.0",
+        "ilib-loctool-webos-json-resource": "^1.4.0",
         "loctool": "^2.18.0"
     }
 }
