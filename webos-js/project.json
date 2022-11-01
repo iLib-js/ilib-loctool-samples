@@ -29,8 +29,6 @@
             "fr-CA": "fr"
         },
         "localeInherit": {
-            "en-AM": "en-GB",
-            "en-AU": "en-GB",
             "en-CN": "en-GB"
         }
     }
