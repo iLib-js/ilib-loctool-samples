@@ -16,6 +16,6 @@
         "ilib-loctool-webos-appinfo-json": "^1.3.0",
         "ilib-loctool-webos-javascript": "^1.5.0",
         "ilib-loctool-webos-json-resource": "^1.4.0",
-        "loctool": "^2.18.0"
+        "loctool": "^2.19.0"
     }
 }
