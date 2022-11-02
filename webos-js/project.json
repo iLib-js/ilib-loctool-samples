@@ -29,10 +29,15 @@
             "fr-FR",
             "ja-JP",
             "ko-KR",
-            "ko-US"
+            "ko-US",
+            "en-GB",
+            "en-AU"
         ],
         "localeMap": {
             "fr-CA": "fr"
+        },
+        "localeInherit": {
+            "en-CN": "en-GB"
         }
     }
 }
