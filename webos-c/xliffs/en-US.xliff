@@ -17,13 +17,13 @@
       <unit id="3">
         <segment>
           <source>TV Program Locks</source>
-          <target>TV Rating Locks</target>
+          <target>TV Program Locks</target>
         </segment>
       </unit>
       <unit id="4">
         <segment>
           <source>Service Area Zip Code</source>
-          <target>Service Area Postcode</target>
+          <target>Service Area Zip Code</target>
         </segment>
       </unit>
     </group>

@@ -23,7 +23,7 @@
       <unit id="4">
         <segment>
           <source>Service Area Zip Code</source>
-          <target>Service Area Postcode</target>
+          <target>Service Area Zip Code</target>
         </segment>
       </unit>
     </group>
