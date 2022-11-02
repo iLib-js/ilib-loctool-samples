@@ -24,6 +24,8 @@ AppStringSheet {
             qsTr("Artists") + es,
             qsTr("Songs") + es,
             qsTr("Genres") + es
+            qsTr("TV Program Locks") + es
+            qsTr("Service Area Zip Code") + es
         ]
     }
 }

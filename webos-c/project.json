@@ -22,6 +22,8 @@
         "xliffsDir": "./xliffs",
         "locales":[
             "en-US",
+            "en-GB",
+            "en-AU",
             "es-CO",
             "es-ES",
             "fr-CA",

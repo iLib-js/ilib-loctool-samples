@@ -23,6 +23,8 @@ bool get_checking_update(AppLaunchingItem prelaunching_item,)
         std::string agree_label        = ResBundleAdaptor::instance().getLocString("Agree");
         std::string program_label      = ResBundleAdaptor::instance().getLocString("Programme");
         std::string ivory_label        = ResBundleAdaptor::instance().getLocString("Ivory Coast");
+        std::string test1_label        = ResBundleAdaptor::instance().getLocString("TV Program Locks");
+        std::string test2_label        = ResBundleAdaptor::instance().getLocString("Service Area Zip Code");
         // Layout: [yes] [no]
         buttons.append(yes_btn);
         buttons.append(no_btn);
