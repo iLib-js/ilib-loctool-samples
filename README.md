@@ -24,12 +24,15 @@ run it all again.
 For each subdirectory, run the loctool with:
 
 ```
-> npm install
-> npm run loc
+$ npm install
+$ npm run loc
 ```
 
 Then view the results. The output goes into different directories,
 depending on how the type of the project.
+
+For some of the directories, you can even run the sample to see how
+it works. Use `npm run test` to see the output.
 
 ## Sample Translations
 
