@@ -12,6 +12,6 @@
     },
     "devDependencies": {
         "ilib-loctool-po": "^1.6.1",
-        "loctool": "^2.16.3"
+        "loctool": "^2.18.0"
     }
 }
