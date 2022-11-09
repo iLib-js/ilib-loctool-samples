@@ -9,7 +9,7 @@
         "loc": "loctool",
         "debug": "node --inspect-brk node_modules/loctool/loctool.js",
         "clean": "rm -rf *.xliff resources",
-        "test": "node src/t1.js"
+        "test": "npm run loc ; node src/t1.js"
     },
     "devDependencies": {
         "ilib-loctool-javascript": "^1.1.1",

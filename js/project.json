@@ -15,13 +15,19 @@
     ],
     "excludes": [
         ".*",
-        "xliffs"
+        "xliffs",
+        "resources",
+        "package.json",
+        "package-lock.json"
     ],
     "settings": {
         "xliffsDir": "./xliffs",
         "locales":[
             "ko-KR",
             "de-DE"
-        ]
+        ],
+        "javascript": {
+            "wrapper": "\\.\\s*getString(JS)?"
+        }
     }
 }

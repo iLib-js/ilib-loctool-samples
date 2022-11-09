@@ -22,7 +22,7 @@
         <source>Thank you</source>
         <target>Danke</target>
       </trans-unit>
-      <trans-unit id="3" resname="id1" restype="string" datatype="javascript">
+      <trans-unit id="4" resname="id1" restype="string" datatype="javascript">
         <source>This is a test with a unique id</source>
         <target>Dies ist ein Test mit einer eindeutigen ID</target>
       </trans-unit>
