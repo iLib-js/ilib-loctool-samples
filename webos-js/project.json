@@ -38,6 +38,9 @@
         },
         "localeInherit": {
             "en-CN": "en-GB"
+        },
+        "webos": {
+            "commonXliff": "./common"
         }
     }
 }
