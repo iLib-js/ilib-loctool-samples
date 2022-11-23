@@ -59,7 +59,7 @@ export function findMsgByCode3 (code) {
         case 8:
             msg.reason = $L('Time Settings');
             break;
-        case 8:
+        case 9:
             msg.reason = $L('Please enter password.');
             break;
         default:

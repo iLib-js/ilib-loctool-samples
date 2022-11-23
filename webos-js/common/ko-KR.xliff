@@ -5,13 +5,13 @@
       <unit id="common_1">
         <segment>
           <source>Time Settings</source>
-          <target>시간 설정</target>
+          <target>[common] 시간 설정</target>
         </segment>
       </unit>
       <unit id="common_2">
         <segment>
           <source>Please enter password.</source>
-          <target>비밀번호를 입력해 주세요.</target>
+          <target>[common] 비밀번호를 입력해 주세요.</target>
         </segment>
       </unit>
     </group>
