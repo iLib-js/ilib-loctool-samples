@@ -28,6 +28,9 @@
             "es-ES",
             "ko-KR",
             "it-IT"
-        ]
+        ],
+        "webos": {
+            "commonXliff": "./common"
+        }
     }
 }
