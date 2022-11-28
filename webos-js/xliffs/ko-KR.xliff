@@ -44,6 +44,12 @@
           <target>TV Name :</target>
         </segment>
       </unit>
+      <unit id="8">
+        <segment>
+          <source>Time Settings</source>
+          <target>[App] 시간 설정</target>
+        </segment>
+      </unit>
     </group>
   </file>
 </xliff>
