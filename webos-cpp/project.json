@@ -32,6 +32,9 @@
         ],
         "resourceFileNames": {
             "cpp": "cppstrings.json"
+        },
+        "webos": {
+            "commonXliff": "./common"
         }
     }
 }
