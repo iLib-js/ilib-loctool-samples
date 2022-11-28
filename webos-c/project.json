@@ -27,12 +27,14 @@
             "es-CO",
             "es-ES",
             "fr-CA",
-            "fr-FR",
             "ko-KR",
             "ja-JP"
         ],
         "resourceFileNames": {
             "c": "cstrings.json"
+        },
+        "webos": {
+            "commonXliff": "./common"
         }
     }
 }
