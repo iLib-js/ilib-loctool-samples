@@ -26,6 +26,12 @@
           <target>아니오</target>
         </segment>
       </unit>
+      <unit id="5">
+        <segment>
+          <source>Time Settings</source>
+          <target>[App] 시간 설정</target>
+        </segment>
+      </unit>
     </group>
   </file>
 </xliff>

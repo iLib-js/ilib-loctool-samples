@@ -20,6 +20,12 @@
           <target>확인</target>
         </segment>
       </unit>
+      <unit id="4">
+        <segment>
+          <source>Time Settings</source>
+          <target>[App] 시간 설정</target>
+        </segment>
+      </unit>
     </group>
   </file>
 </xliff>

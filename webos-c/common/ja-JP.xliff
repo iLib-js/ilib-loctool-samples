@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="2.0" srcLang="en-KR" trgLang="ja-JP" xmlns:l="http://ilib-js.com/loctool">
+  <file id="common_f1" original="common">
+    <group id="common_g1" name="javascript">
+      <unit id="common_1">
+        <segment>
+          <source>Time Settings</source>
+          <target>[common] 時刻設定</target>
+        </segment>
+      </unit>
+      <unit id="common_2">
+        <segment>
+          <source>Please enter password.</source>
+          <target>[common] パスワードを入力してください。</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

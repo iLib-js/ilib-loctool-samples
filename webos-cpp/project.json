@@ -26,12 +26,16 @@
             "en-US",
             "es-CO",
             "es-ES",
+            "ja-JP",
             "ko-KR",
             "fr-CA",
             "fr-FR"
         ],
         "resourceFileNames": {
             "cpp": "cppstrings.json"
+        },
+        "webos": {
+            "commonXliff": "./common"
         }
     }
 }
