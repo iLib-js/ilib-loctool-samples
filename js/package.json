@@ -1,5 +1,6 @@
 {
     "name": "sample-js",
+    "type": "module",
     "description": "Sample localization project",
     "repository": "git@github.com:iLib-js/ilib-loctool-samples.git",
     "license": "Apache-2.0",
@@ -8,11 +9,15 @@
         "loc": "loctool",
         "debug": "node --inspect-brk node_modules/loctool/loctool.js",
         "clean": "rm -rf *.xliff resources",
+        "run": "npm run loc ; node src/t1.js",
         "test": "echo success"
     },
     "devDependencies": {
-        "ilib-loctool-javascript": "^1.0.3",
-        "ilib-loctool-javascript-resource": "^1.0.3",
-        "loctool": "^2.16.3"
+        "ilib-loctool-javascript": "^1.1.1",
+        "ilib-loctool-javascript-resource": "^1.0.4",
+        "loctool": "^2.19.0"
+    },
+    "dependencies": {
+        "ilib-resbundle": "^1.0.1"
     }
 }
