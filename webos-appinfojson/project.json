@@ -15,7 +15,8 @@
     ],
     "excludes": [
         ".*",
-        "xliffs"
+        "xliffs",
+        "resources"
     ],
     "settings": {
         "xliffsDir": "./xliffs",
@@ -27,11 +28,15 @@
             "es-ES",
             "fr-CA",
             "fr-FR",
+            "it-IT",
             "ko-KR",
             "zh-Hans-CN",
             "zh-Hant-HK",
             "zh-Hant-TW"
-        ]
+        ],
+        "webos": {
+            "commonXliff": "./common"
+        }
 
     }
 }
