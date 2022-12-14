@@ -7,15 +7,15 @@
     "scripts": {
         "loc": "loctool -2 --xliffStyle custom --localeMap es-CO:es,fr-CA:fr --localeInherit en-AU:en-GB",
         "debug": "node --inspect-brk node_modules/loctool/loctool.js -2 --xliffStyle custom --localeMap es-CO:es --localeInherit en-AU:en-GB",
-        "loc-generate": "loctool generate -2 -x xliffs --projectType custom --sourceLocale en-KR --resourceFileTypes json=webos-json-resource --plugins webos-javascript,webos-appinfo-json -l ko-US,ko-KR --projectId sample-webos-js",
-        "loc-generate-debug": "node --inspect-brk node_modules/loctool/loctool.js generate -2 -x xliffs --projectType custom --sourceLocale en-KR --resourceFileTypes json=webos-json-resource --plugins webos-javascript,webos-appinfo-json -l ko-US,ko-KR --projectId sample-webos-js",
+        "loc-generate": "loctool generate -2 -x xliffs --projectType custom --sourceLocale en-KR --resourceFileTypes json=webos-json-resource --plugins webos-javascript,webos-appinfo-json -l es-CO,es-ES,en-AU,en-GB --localeMap es-CO:es --localeInherit en-AU:en-GB --projectId sample-webos-js",
+        "loc-generate-debug": "node --inspect-brk node_modules/loctool/loctool.js generate -2 -x xliffs --projectType custom --sourceLocale en-KR --resourceFileTypes json=webos-json-resource --plugins webos-javascript,webos-appinfo-json --localeInherit en-AU:en-GB -l es-CO,es-ES,en-AU,en-GB --localeMap es-CO:es --projectId sample-webos-js",
         "clean": "rm -rf *.xliff resources",
         "test": "echo success"
     },
     "dependencies": {
-        "ilib-loctool-webos-appinfo-json": "^1.3.0",
-        "ilib-loctool-webos-javascript": "^1.5.0",
-        "ilib-loctool-webos-json-resource": "^1.4.0",
-        "loctool": "^2.19.0"
+        "ilib-loctool-webos-appinfo-json": "^1.4.0",
+        "ilib-loctool-webos-javascript": "^1.6.0",
+        "ilib-loctool-webos-json-resource": "^1.4.1",
+        "loctool": "^2.20.0"
     }
 }
