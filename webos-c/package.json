@@ -7,8 +7,8 @@
     "scripts": {
         "loc": "loctool -2 --xliffStyle custom --localeMap es-CO:es --localeInherit en-AU:en-GB",
         "debug": "node --inspect-brk node_modules/loctool/loctool.js -2 --xliffStyle custom --localeMap es-CO:es --localeInherit en-AU:en-GB",
-        "loc-generate": "loctool generate -2 -x xliffs --projectType custom --sourceLocale en-KR --resourceFileTypes json=webos-json-resource --resourceFileNames json=cstrings.json --plugins webos-c -l ko-KR,es-CO,es-ES --localeMap es-CO:es --projectId sample-webos-c",
-        "loc-generate-debug": "node --inspect-brk node_modules/loctool/loctool.js generate -2 -x xliffs --projectType custom --sourceLocale en-KR --resourceFileTypes json=webos-json-resource --plugins webos-c -l ko-KR,es-CO,es-ES --localeMap es-CO:es --projectId sample-webos-c",
+        "loc-generate": "loctool generate -2 -x xliffs --projectType custom --sourceLocale en-KR --resourceFileTypes json=webos-json-resource --resourceFileNames json=cstrings.json --plugins webos-c -l en-AU,en-GB,en-JP --localeMap es-CO:es --localeInherit en-AU:en-GB,en-JP:en-GB --projectId sample-webos-c",
+        "loc-generate-debug": "node --inspect-brk node_modules/loctool/loctool.js generate -2 -x xliffs --projectType custom --sourceLocale en-KR --resourceFileTypes json=webos-json-resource --plugins webos-c -l en-AU,en-GB,en-JP --localeMap es-CO:es --localeInherit en-AU:en-GB,en-JP:en-GB --projectId sample-webos-c",
         "clean": "rm -rf *.xliff resources",
         "test": "echo success"
     },
