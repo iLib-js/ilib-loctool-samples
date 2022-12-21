@@ -10,8 +10,8 @@
         "loc-generate": "loctool generate -2 -x xliffs --projectType custom --sourceLocale en-KR --resourceFileTypes json=webos-json-resource --plugins webos-javascript,webos-appinfo-json  --projectId sample-webos-js -l de-DE,en-AU,en-US,en-GB,en-JP,es-ES,es-CO,fr-CA,fr-FR,ja-JP,ko-KR,ko-US --localeMap es-CO:es,fr-CA:fr --localeInherit en-AU:en-GB,en-JP:en-GB",
         "loc-generate-debug": "node --inspect-brk node_modules/loctool/loctool.js generate -2 -x xliffs --projectType custom --sourceLocale en-KR --resourceFileTypes json=webos-json-resource --plugins webos-javascript,webos-appinfo-json --projectId sample-webos-js -l de-DE,en-AU,en-US,en-GB,en-JP,es-ES,es-CO,fr-CA,fr-FR,ja-JP,ko-KR,ko-US --localeMap es-CO:es,fr-CA:fr --localeInherit en-AU:en-GB,en-JP,en-GB",
         "clean": "rm -rf *.xliff resources",
-        "test": "npm run clean;npm run loc;node test/testResources.js; node test/testResourceSpecial.js",
-        "test-generate": "npm run clean;npm run loc-generate;node test/testResources.js;"
+        "test": "npm run clean;npm run loc;node test/testResources.js; node test/testResourceLocalize.js",
+        "test-generate": "npm run clean;npm run loc-generate;node test/testResources.js; node test/testResourceGenerate.js"
     },
     "dependencies": {
         "ilib": "^14.15.1",

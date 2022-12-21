@@ -29,7 +29,7 @@ function logResults(testname, expected, actual) {
     }
 }
    
-console.log("\n***** Run `testResourceSpecial.js` file  *****");
+console.log("\n***** Run `testResourceLocalize.js` file  *****");
 function testkoKR(){
     var rb = new ResBundle({
         locale:"ko-KR",
