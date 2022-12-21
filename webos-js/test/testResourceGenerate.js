@@ -1,5 +1,5 @@
 /*
- * testResourcesSpecial.js - test file to verify resources which generate different results than generate mode
+ * testResourcesGenerate.js - test file for `generate` mode output
  *
  * Copyright © 2022 JEDLSoft
  *
@@ -39,7 +39,6 @@ function testkoKR(){
     var result1 = rb.getString("Please enter password.").toString();
     logResults(arguments.callee.name, "Please enter password.", result1);
 }
-
 
 function testjaJP(){
     var rb = new ResBundle({

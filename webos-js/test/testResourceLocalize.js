@@ -1,5 +1,5 @@
 /*
- * testResourcesSpecial.js - test file to verify resources which generate different results than generate mode
+ * testResourcesLocalize.js - test file for normal `localize` mode output
  *
  * Copyright © 2022 JEDLSoft
  *
@@ -39,7 +39,6 @@ function testkoKR(){
     var result1 = rb.getString("Please enter password.").toString();
     logResults(arguments.callee.name, "[common] 비밀번호를 입력해 주세요.", result1);
 }
-
 
 function testjaJP(){
     var rb = new ResBundle({
