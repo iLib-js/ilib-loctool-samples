@@ -35,6 +35,7 @@ function testkoKR(){
         locale:"ko-KR",
         basePath : defaultRSPath
     });
+    // common data path.
     var result1 = rb.getString("Please enter password.").toString();
     logResults(arguments.callee.name, "[common] 비밀번호를 입력해 주세요.", result1);
 }
@@ -46,6 +47,7 @@ function testjaJP(){
         basePath : defaultRSPath
     });
 
+    // fyi. https://github.com/iLib-js/ilib-loctool-webos-javascript/pull/34
     var result1 = rb.getString("To read the Terms and Conditions, go to Settings > Support >  Privacy & Terms.").toString();
     logResults(arguments.callee.name, "利用規約を読むには、設定 > サポート > 利用規約 & 法的情報に移動します。", result1);
 }
