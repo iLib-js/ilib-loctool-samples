@@ -7,10 +7,13 @@
     "scripts": {
         "loc": "loctool -2 --xliffStyle custom --localeMap es-CO:es,fr-CA:fr --localeInherit en-AU:en-GB",
         "debug": "node --inspect-brk node_modules/loctool/loctool.js -2 --xliffStyle custom --localeMap es-CO:es --localeInherit en-AU:en-GB",
-        "loc-generate": "loctool generate -2 -x xliffs --projectType custom --sourceLocale en-KR --resourceFileTypes json=webos-json-resource --plugins webos-javascript,webos-appinfo-json  --projectId sample-webos-js -l en-AU,en-US,en-GB,en-JP,es-ES,es-CO,ko-KR,ko-US --localeMap es-CO:es --localeInherit en-AU:en-GB,en-JP:en-GB",
-        "loc-generate-debug": "node --inspect-brk node_modules/loctool/loctool.js generate -2 -x xliffs --projectType custom --sourceLocale en-KR --resourceFileTypes json=webos-json-resource --plugins webos-javascript,webos-appinfo-json --projectId sample-webos-js -l en-AU,en-US,en-GB,en-JP,es-ES,es-CO,ko-KR,ko-US --localeMap es-CO:es --localeInherit en-AU:en-GB,en-JP,en-GB",
         "clean": "rm -rf *.xliff resources",
-        "test": "node test/testResources.js"
+        "loc-generate": "loctool generate -2 -x xliffs --projectType custom --sourceLocale en-KR --resourceFileTypes json=webos-json-resource --plugins webos-javascript,webos-appinfo-json  --projectId sample-webos-js -l de-DE,en-AU,en-US,en-GB,en-JP,es-ES,es-CO,fr-CA,fr-FR,ja-JP,ko-KR,ko-US --localeMap es-CO:es,fr-CA:fr --localeInherit en-AU:en-GB,en-JP:en-GB",
+        "loc-generate-debug": "node --inspect-brk node_modules/loctool/loctool.js generate -2 -x xliffs --projectType custom --sourceLocale en-KR --resourceFileTypes json=webos-json-resource --plugins webos-javascript,webos-appinfo-json --projectId sample-webos-js -l de-DE,en-AU,en-US,en-GB,en-JP,es-ES,es-CO,fr-CA,fr-FR,ja-JP,ko-KR,ko-US --localeMap es-CO:es,fr-CA:fr --localeInherit en-AU:en-GB,en-JP,en-GB",
+        "test": "node test/testResources.js; node test/testResourceLocalize.js",
+        "test-generate": "node test/testResources.js; node test/testResourceGenerate.js",
+        "test:all": "npm-run-all clean loc test",
+        "test-generate:all": "npm-run-all clean loc-generate test-generate"
     },
     "dependencies": {
         "ilib": "^14.15.1",
@@ -18,5 +21,8 @@
         "ilib-loctool-webos-javascript": "^1.6.0",
         "ilib-loctool-webos-json-resource": "^1.4.1",
         "loctool": "^2.20.0"
+    },
+    "devDependencies": {
+        "npm-run-all": "^4.1.5"
     }
 }

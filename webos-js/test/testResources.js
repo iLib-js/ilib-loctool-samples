@@ -28,19 +28,19 @@ function logResults(testname, expected, actual) {
         console.log(testname + " is failed." +  "\n\texpected:\t"+expected+"\tactual:\t\t"+actual);
     }
 }
-   
+
+console.log("\n***** `Run testResources.js` file *****");
 function testkoKR(){
     var rb = new ResBundle({
         locale:"ko-KR",
         basePath : defaultRSPath
     });
-    var result1 = rb.getString("Please enter password.").toString();
-    var result2 = rb.getString("TV Name : ").toString();
-    var result3 = rb.getString("Time Settings").toString();
 
-    logResults(arguments.callee.name, "[common] 비밀번호를 입력해 주세요.", result1);
-    logResults(arguments.callee.name, "TV Name :", result2);
-    logResults(arguments.callee.name, "[App] 시간 설정", result3);
+    var result1 = rb.getString("TV Name : ").toString();
+    var result2 = rb.getString("Time Settings").toString();
+
+    logResults(arguments.callee.name, "TV Name :", result1);
+    logResults(arguments.callee.name, "[App] 시간 설정", result2);
 }
 
 function testkoUS(){
@@ -78,7 +78,7 @@ function testenAU(){
 
 function testenGB(){
     var rb = new ResBundle({
-        locale:"en-AU",
+        locale:"en-GB",
         basePath : defaultRSPath
     });
     var result1 = rb.getString("Service Area Zip Code").toString();
@@ -106,7 +106,6 @@ function testfrFR(){
         basePath : defaultRSPath
     });
     var result1 = rb.getString("Agree").toString();
-
     logResults(arguments.callee.name, "J'accepte", result1);
 }
 
@@ -116,7 +115,6 @@ function testesES(){
         basePath : defaultRSPath
     });
     var result1 = rb.getString("Sound Out").toString();
-
     logResults(arguments.callee.name, "Salida de sonido", result1);
 }
 
@@ -126,7 +124,6 @@ function testesCO(){
         basePath : defaultRSPath
     });
     var result1 = rb.getString("Sound Out").toString();
-
     logResults(arguments.callee.name, "Salida de Audio", result1);
 }
 
@@ -137,11 +134,8 @@ function testjaJP(){
     });
     var result1 = rb.getString("Live TV").toString();
     var result2 = rb.getString("TV Name : ").toString();
-    var result3 = rb.getString("To read the Terms and Conditions, go to Settings > Support > Privacy & Terms.").toString();
-
     logResults(arguments.callee.name, "Live TV", result1);
     logResults(arguments.callee.name, "機器名：", result2);
-    logResults(arguments.callee.name, "利用規約を読むには、設定 > サポート > 利用規約 & 法的情報に移動します。", result3);
 }
 
 function testdeDE(){
