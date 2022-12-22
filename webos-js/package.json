@@ -12,7 +12,7 @@
         "loc-generate-debug": "node --inspect-brk node_modules/loctool/loctool.js generate -2 -x xliffs --projectType custom --sourceLocale en-KR --resourceFileTypes json=webos-json-resource --plugins webos-javascript,webos-appinfo-json --projectId sample-webos-js -l de-DE,en-AU,en-US,en-GB,en-JP,es-ES,es-CO,fr-CA,fr-FR,ja-JP,ko-KR,ko-US --localeMap es-CO:es,fr-CA:fr --localeInherit en-AU:en-GB,en-JP,en-GB",
         "test": "node test/testResources.js; node test/testResourceLocalize.js",
         "test-generate": "node test/testResources.js; node test/testResourceGenerate.js",
-        "test:all": "npm-run-all clean loc-generate test-generate",
+        "test:all": "npm-run-all clean loc test",
         "test-generate:all": "npm-run-all clean loc-generate test-generate"
     },
     "dependencies": {
