@@ -62,6 +62,9 @@ export function findMsgByCode3 (code) {
         case 9:
             msg.reason = $L('Please enter password.');
             break;
+        case 10:
+            msg.reason = $L('Others');
+            break;
         default:
             msg.reason = $L('MAC Address'); // xliff_target trim
             break;

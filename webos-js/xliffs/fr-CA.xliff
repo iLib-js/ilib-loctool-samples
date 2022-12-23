@@ -20,6 +20,12 @@
           <target>D’accord</target>
         </segment>
       </unit>
+      <unit id="4">
+        <segment>
+          <source>Others</source>
+          <target>Autres</target>
+        </segment>
+      </unit>
     </group>
   </file>
 </xliff>
