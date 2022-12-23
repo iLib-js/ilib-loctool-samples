@@ -112,8 +112,8 @@ function testenGB(){
     logResults(arguments.callee.name, "Programme", result3);
     logResults(arguments.callee.name, "Côte d’Ivoire", result4);
 
-    var existKey = isExistKey("en/AU/strings.json", "Programme");
-    var existKey2 = isExistKey("en/AU/strings.json", "Ivory Coast");
+    var existKey = isExistKey("en/GB/strings.json", "Programme");
+    var existKey2 = isExistKey("en/GB/strings.json", "Ivory Coast");
     logResults(arguments.callee.name, true, existKey);
     logResults(arguments.callee.name, false, existKey2);
 }
@@ -136,7 +136,12 @@ function testfrFR(){
         basePath : defaultRSPath
     });
     var result1 = rb.getString("Agree").toString();
+    var result2 = rb.getString("Others").toString();
+    var existKey = isExistKey("fr/FR/strings.json", "Others");
+
     logResults(arguments.callee.name, "J'accepte", result1);
+    logResults(arguments.callee.name, "Autres", result2);
+    logResults(arguments.callee.name, false, existKey);
 }
 
 function testesES(){
