@@ -30,8 +30,8 @@
             "ja-JP",
             "ko-KR",
             "ko-US",
-            "en-GB",
-            "en-AU"
+            "en-AU",
+            "en-GB"
         ],
         "localeMap": {
             "fr-CA": "fr"

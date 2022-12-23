@@ -16,6 +16,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+var fs = require("fs");
 var path = require("path");
 
 var ResBundle = require("ilib/lib/ResBundle");
@@ -27,6 +28,17 @@ function logResults(testname, expected, actual) {
     } else {
         console.log(testname + " is failed." +  "\n\texpected:\t"+expected+"\tactual:\t\t"+actual);
     }
+}
+
+function isExistKey(filepath, key){
+    var data, jsonData;
+    var fullPath = path.join(defaultRSPath, filepath);
+    if (fs.existsSync(fullPath)){
+        data = fs.readFileSync(fullPath, "utf-8");
+        jsonData = JSON.parse(data);
+        return (jsonData && jsonData.hasOwnProperty(key)) ? true : false;
+    }
+    return false;
 }
 
 console.log("\n***** `Run testResources.js` file *****");
@@ -71,9 +83,18 @@ function testenAU(){
     });
     var result1 = rb.getString("Service Area Zip Code").toString();
     var result2 = rb.getString("TV Program Locks").toString();
+    var result3 = rb.getString("Programme").toString();
+    var result4 = rb.getString("Ivory Coast").toString();
 
     logResults(arguments.callee.name, "Service Area Postcode", result1);
     logResults(arguments.callee.name, "TV Rating Locks", result2);
+    logResults(arguments.callee.name, "Programme", result3);
+    logResults(arguments.callee.name, "Côte d’Ivoire", result4);
+
+    var existKey = isExistKey("en/AU/strings.json", "Programme");
+    var existKey2 = isExistKey("en/AU/strings.json", "Ivory Coast");
+    logResults(arguments.callee.name, true, existKey);
+    logResults(arguments.callee.name, false, existKey2);
 }
 
 function testenGB(){
@@ -83,9 +104,18 @@ function testenGB(){
     });
     var result1 = rb.getString("Service Area Zip Code").toString();
     var result2 = rb.getString("TV Program Locks").toString();
+    var result3 = rb.getString("Programme").toString();
+    var result4 = rb.getString("Ivory Coast").toString();
 
     logResults(arguments.callee.name, "Service Area Postcode", result1);
     logResults(arguments.callee.name, "TV Rating Locks", result2);
+    logResults(arguments.callee.name, "Programme", result3);
+    logResults(arguments.callee.name, "Côte d’Ivoire", result4);
+
+    var existKey = isExistKey("en/AU/strings.json", "Programme");
+    var existKey2 = isExistKey("en/AU/strings.json", "Ivory Coast");
+    logResults(arguments.callee.name, true, existKey);
+    logResults(arguments.callee.name, false, existKey2);
 }
 
 function testfrCA(){
