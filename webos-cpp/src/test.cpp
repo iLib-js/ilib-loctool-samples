@@ -12,6 +12,8 @@ bool get_checking_update(AppLaunchingItem prelaunching_item,)
         // (cancel button)
         std::string cancel_label        = ResBundleAdaptor::instance().getLocString("Cancel"); // i18n
         std::string sound_label        = ResBundleAdaptor::instance().getLocString("Sound Out");
+        std::string other_label        = ResBundleAdaptor::instance().getLocString("Others");
+        std::string ivory_label        = ResBundleAdaptor::instance().getLocString("Ivory Coast");
     }
     else // required
     {
