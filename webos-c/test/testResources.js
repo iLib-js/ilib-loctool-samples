@@ -53,7 +53,6 @@ function isExistKey(filepath, key){
 console.log("\n***** `Run testResources.js` file *****");
 
 function testkoKR(){
-
     var loadData = loadJSON("ko/cstrings.json");
     var result1 = loadData["No"];
     var result2 = loadData["OK"];
@@ -61,7 +60,6 @@ function testkoKR(){
     logResults(arguments.callee.name, "아니오", result1);
     logResults(arguments.callee.name, "확인", result2);
 }
-
 
 function testenUS(){
     var loadData = loadJSON("cstrings.json");
@@ -74,7 +72,6 @@ function testenUS(){
 
 function testenAU(){
     var loadData = loadJSON("en/AU/cstrings.json");
-
     var result1 = loadData["Service Area Zip Code"];
     var result2 = loadData["TV Program Locks"];
     var result3 = loadData["Programme"];
@@ -91,7 +88,6 @@ function testenAU(){
 
 function testenGB(){
     var loadData = loadJSON("en/GB/cstrings.json");
-
     var result1 = loadData["Service Area Zip Code"];
     var result2 = loadData["TV Program Locks"];
     var result3 = loadData["Programme"];
@@ -108,10 +104,10 @@ function testenGB(){
 
 function testfrCA(){
     var loadData = loadJSON("fr/cstrings.json");
-
     var result1 = loadData["Agree"];
     var result2 = loadData["Programme"];
     var result3 = loadData["Others"];
+
     logResults(arguments.callee.name, "D’accord", result1);
     logResults(arguments.callee.name, "Programme", result2);
     logResults(arguments.callee.name, "Autres", result3);
@@ -119,7 +115,6 @@ function testfrCA(){
 
 function testfrFR(){
     var loadData = loadJSON("fr/FR/cstrings.json");
-
     var result1 = loadData["Agree"];
     var existKey = isExistKey("fr/FR/cstrings.json", "Others");
     
