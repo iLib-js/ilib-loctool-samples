@@ -31,10 +31,10 @@ function logResults(testname, expected, actual) {
 function loadJSON(filepath){
     var loaddata = {};
     var fullPath = path.join(defaultRSPath, filepath);
-    if (fs.existsSync(fullPath)){
+    if (fs.existsSync(fullPath)) {
         data = fs.readFileSync(fullPath, "utf-8");
-        jsonData = JSON.parse(data);
-        return jsonData;
+        loaddata = JSON.parse(data);
+        return loaddata;
     }
     return loaddata;
 }
@@ -42,7 +42,7 @@ function loadJSON(filepath){
 function isExistKey(filepath, key){
     var data, jsonData;
     var fullPath = path.join(defaultRSPath, filepath);
-    if (fs.existsSync(fullPath)){
+    if (fs.existsSync(fullPath)) {
         data = fs.readFileSync(fullPath, "utf-8");
         jsonData = JSON.parse(data);
         return (jsonData && jsonData.hasOwnProperty(key)) ? true : false;
