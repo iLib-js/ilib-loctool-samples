@@ -11,8 +11,8 @@
         "test": "echo success"
     },
     "devDependencies": {
-        "ilib-loctool-webos-qml": "^1.4.0",
-        "ilib-loctool-webos-ts-resource": "^1.3.1",
+        "ilib-loctool-webos-qml": "^1.4.1",
+        "ilib-loctool-webos-ts-resource": "^1.4.0",
         "loctool": "^2.20.0"
     }
 }

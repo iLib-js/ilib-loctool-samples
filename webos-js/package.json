@@ -17,8 +17,8 @@
     },
     "dependencies": {
         "ilib": "^14.15.1",
-        "ilib-loctool-webos-appinfo-json": "^1.4.0",
-        "ilib-loctool-webos-javascript": "^1.6.0",
+        "ilib-loctool-webos-appinfo-json": "^1.4.1",
+        "ilib-loctool-webos-javascript": "^1.7.0",
         "ilib-loctool-webos-json-resource": "^1.4.1",
         "loctool": "^2.20.0"
     },
