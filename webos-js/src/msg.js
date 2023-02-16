@@ -13,6 +13,12 @@ export function findMsgByCode (code) {
         case 4:
             msg.reason = $L('Antenna NEXTGEN TV');
             break;
+        case 5:
+            msg.reason = $L('Game Optimizer');
+            break;
+        case 6:
+            msg.reason = $L('HDMI Deep Color');
+            break;
         default:
             msg.reason = $L('Bye');
             break;
