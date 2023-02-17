@@ -16,7 +16,8 @@
     "excludes": [
         ".*",
         "xliffs",
-        "resources"
+        "resources",
+        "common"
     ],
     "settings": {
         "xliffsDir": "./xliffs",
