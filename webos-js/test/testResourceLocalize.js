@@ -59,9 +59,12 @@ function testenGB(){
     // common data's locale Inheritence
     var result1 = rb.getString("Game Optimizer").toString();
     var result2 = rb.getString("HDMI Deep Color").toString();
+    //multi-space
+    var result3 = rb.getString("Go to  'Settings > General > Channels > Channel Tuning & Settings > Transponder Edit' and add one.").toString();
 
     logResults(arguments.callee.name, "Game Optimiser", result1);
     logResults(arguments.callee.name, "HDMI Deep Colour", result2);
+    logResults(arguments.callee.name, "Go to 'Settings > General > Programmes > Programme Tuning & Settings > Transponder Edit' and add one.", result3);
 }
 
 function testenAU(){
@@ -72,9 +75,12 @@ function testenAU(){
     // common data's locale Inheritence
     var result1 = rb.getString("Game Optimizer").toString();
     var result2 = rb.getString("HDMI Deep Color").toString();
+    //multi-space
+    var result3 = rb.getString("Go to  'Settings > General > Channels > Channel Tuning & Settings > Transponder Edit' and add one.").toString();
 
     logResults(arguments.callee.name, "Game Optimiser", result1);
     logResults(arguments.callee.name, "HDMI Deep Colour", result2);
+    logResults(arguments.callee.name, "Go to 'Settings > General > Programmes > Programme Tuning & Settings > Transponder Edit' and add one.", result3);
 }
 
 testkoKR();
