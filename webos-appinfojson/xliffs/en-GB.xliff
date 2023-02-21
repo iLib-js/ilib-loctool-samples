@@ -8,6 +8,12 @@
           <target>(en-GB) Live TV</target>
         </segment>
       </unit>
+      <unit id="2">
+        <segment>
+          <source>test</source>
+          <target>(dup) test</target>
+        </segment>
+      </unit>
     </group>
   </file>
 </xliff>

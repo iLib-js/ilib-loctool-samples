@@ -13,6 +13,12 @@ export function findMsgByCode (code) {
         case 4:
             msg.reason = $L('Antenna NEXTGEN TV');
             break;
+        case 5:
+            msg.reason = $L('Game Optimizer');
+            break;
+        case 6:
+            msg.reason = $L('HDMI Deep Color');
+            break;
         default:
             msg.reason = $L('Bye');
             break;
@@ -64,6 +70,8 @@ export function findMsgByCode3 (code) {
             break;
         case 10:
             msg.reason = $L('Others');
+        case 11:
+            $L("Go to  'Settings > General > Channels > Channel Tuning & Settings > Transponder Edit' and add one.")
             break;
         default:
             msg.reason = $L('MAC Address'); // xliff_target trim

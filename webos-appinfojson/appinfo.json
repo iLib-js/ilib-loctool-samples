@@ -14,5 +14,6 @@
 		"supportsAudioGuidance": true
 	},
 	"voiceControl": "manual",
-	"v8SnapshotFile": "snapshot_blob.bin"
+	"v8SnapshotFile": "snapshot_blob.bin",
+	"vendor": "test"
 }

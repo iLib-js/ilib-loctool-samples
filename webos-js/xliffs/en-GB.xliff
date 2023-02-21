@@ -26,6 +26,12 @@
           <target>Programme</target>
         </segment>
       </unit>
+      <unit id="5">
+         <segment>
+            <source>Go to  'Settings > General > Channels > Channel Tuning &amp; Settings > Transponder Edit' and add one.</source>
+            <target>Go to 'Settings > General > Programmes > Programme Tuning &amp; Settings > Transponder Edit' and add one.</target>
+          </segment>
+      </unit>
     </group>
   </file>
 </xliff>

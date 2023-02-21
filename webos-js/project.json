@@ -16,7 +16,9 @@
     ],
     "excludes": [
         ".*",
-        "xliffs"
+        "test",
+        "xliffs",
+        "common"
     ],
     "settings": {
         "xliffsDir": "./xliffs",
@@ -31,13 +33,15 @@
             "ko-KR",
             "ko-US",
             "en-AU",
-            "en-GB"
+            "en-GB",
+            "en-AU"
         ],
         "localeMap": {
             "fr-CA": "fr"
         },
         "localeInherit": {
-            "en-CN": "en-GB"
+            "en-CN": "en-GB",
+            "en-AU": "en-GB"
         },
         "webos": {
             "commonXliff": "./common"

@@ -1,7 +1,7 @@
 /*
  * testResourcesLocalize.js - test file for normal `localize` mode output
  *
- * Copyright © 2022 JEDLSoft
+ * Copyright © 2022-2023 JEDLSoft
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -28,7 +28,7 @@ function logResults(testname, expected, actual) {
         console.log(testname + " is failed." +  "\n\texpected:\t"+expected+"\tactual:\t\t"+actual);
     }
 }
-   
+
 console.log("\n***** Run `testResourceLocalize.js` file  *****");
 function testkoKR(){
     var rb = new ResBundle({
@@ -51,5 +51,39 @@ function testjaJP(){
     logResults(arguments.callee.name, "利用規約を読むには、設定 > サポート > 利用規約 & 法的情報に移動します。", result1);
 }
 
+function testenGB(){
+    var rb = new ResBundle({
+        locale:"en-GB",
+        basePath : defaultRSPath
+    });
+    // common data's locale Inheritence
+    var result1 = rb.getString("Game Optimizer").toString();
+    var result2 = rb.getString("HDMI Deep Color").toString();
+    //multi-space
+    var result3 = rb.getString("Go to  'Settings > General > Channels > Channel Tuning & Settings > Transponder Edit' and add one.").toString();
+
+    logResults(arguments.callee.name, "Game Optimiser", result1);
+    logResults(arguments.callee.name, "HDMI Deep Colour", result2);
+    logResults(arguments.callee.name, "Go to 'Settings > General > Programmes > Programme Tuning & Settings > Transponder Edit' and add one.", result3);
+}
+
+function testenAU(){
+    var rb = new ResBundle({
+        locale:"en-AU",
+        basePath : defaultRSPath
+    });
+    // common data's locale Inheritence
+    var result1 = rb.getString("Game Optimizer").toString();
+    var result2 = rb.getString("HDMI Deep Color").toString();
+    //multi-space
+    var result3 = rb.getString("Go to  'Settings > General > Channels > Channel Tuning & Settings > Transponder Edit' and add one.").toString();
+
+    logResults(arguments.callee.name, "Game Optimiser", result1);
+    logResults(arguments.callee.name, "HDMI Deep Colour", result2);
+    logResults(arguments.callee.name, "Go to 'Settings > General > Programmes > Programme Tuning & Settings > Transponder Edit' and add one.", result3);
+}
+
 testkoKR();
 testjaJP();
+testenGB();
+testenAU();
