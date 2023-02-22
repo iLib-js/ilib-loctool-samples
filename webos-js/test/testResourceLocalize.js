@@ -120,9 +120,35 @@ function testfrFR(){
     logResults(arguments.callee.name, false, existKey);
 }
 
+function testesCO(){
+    var rb = new ResBundle({
+        locale:"es-CO",
+        basePath : defaultRSPath
+    });
+    // common data
+    var result1 = rb.getString("OK").toString();
+    logResults(arguments.callee.name, "Aceptar", result1);
+}
+
+function testesES(){
+    var rb = new ResBundle({
+        locale:"es-ES",
+        basePath : defaultRSPath
+    });
+    // common data
+    var result1 = rb.getString("OK").toString();
+    logResults(arguments.callee.name, "OK", result1);
+
+    var existKey = isExistKey("es/ES/strings.json", "OK");
+    logResults(arguments.callee.name, true, existKey);
+
+}
+
 testkoKR();
 testjaJP();
 testenGB();
 testenAU();
 testfrCA();
 testfrFR();
+testesCO();
+testesES();
