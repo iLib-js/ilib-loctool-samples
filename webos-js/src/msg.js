@@ -22,7 +22,7 @@ export function findMsgByCode (code) {
         case 7:
             msg.reason = $L('Exit');
             break;
-        case 7:
+        case 8:
             msg.reason = $L('OK');
             break;
         default:
