@@ -19,6 +19,12 @@ export function findMsgByCode (code) {
         case 6:
             msg.reason = $L('HDMI Deep Color');
             break;
+        case 7:
+            msg.reason = $L('Exit');
+            break;
+        case 8:
+            msg.reason = $L('OK');
+            break;
         default:
             msg.reason = $L('Bye');
             break;

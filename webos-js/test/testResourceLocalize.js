@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 var path = require("path");
-
+var fs = require("fs");
 var ResBundle = require("ilib/lib/ResBundle");
 var defaultRSPath = path.join(process.cwd(), "resources");
 
@@ -27,6 +27,17 @@ function logResults(testname, expected, actual) {
     } else {
         console.log(testname + " is failed." +  "\n\texpected:\t"+expected+"\tactual:\t\t"+actual);
     }
+}
+
+function isExistKey(filepath, key){
+    var data, jsonData;
+    var fullPath = path.join(defaultRSPath, filepath);
+    if (fs.existsSync(fullPath)){
+        data = fs.readFileSync(fullPath, "utf-8");
+        jsonData = JSON.parse(data);
+        return (jsonData && jsonData.hasOwnProperty(key)) ? true : false;
+    }
+    return false;
 }
 
 console.log("\n***** Run `testResourceLocalize.js` file  *****");
@@ -83,7 +94,61 @@ function testenAU(){
     logResults(arguments.callee.name, "Go to 'Settings > General > Programmes > Programme Tuning & Settings > Transponder Edit' and add one.", result3);
 }
 
+function testfrCA(){
+    var rb = new ResBundle({
+        locale:"fr-CA",
+        basePath : defaultRSPath
+    });
+    // common data
+    var result1 = rb.getString("Exit").toString();
+    logResults(arguments.callee.name, "Quitter", result1);
+
+    var existKey = isExistKey("fr/strings.json", "Exit");
+    logResults(arguments.callee.name, true, existKey);
+}
+
+function testfrFR(){
+    var rb = new ResBundle({
+        locale:"fr-FR",
+        basePath : defaultRSPath
+    });
+    // common data
+    var result1 = rb.getString("Exit").toString();
+    logResults(arguments.callee.name, "Quitter", result1);
+
+    var existKey = isExistKey("fr/FR/strings.json", "Exit");
+    logResults(arguments.callee.name, false, existKey);
+}
+
+function testesCO(){
+    var rb = new ResBundle({
+        locale:"es-CO",
+        basePath : defaultRSPath
+    });
+    // common data
+    var result1 = rb.getString("OK").toString();
+    logResults(arguments.callee.name, "Aceptar", result1);
+}
+
+function testesES(){
+    var rb = new ResBundle({
+        locale:"es-ES",
+        basePath : defaultRSPath
+    });
+    // common data
+    var result1 = rb.getString("OK").toString();
+    logResults(arguments.callee.name, "OK", result1);
+
+    var existKey = isExistKey("es/ES/strings.json", "OK");
+    logResults(arguments.callee.name, true, existKey);
+
+}
+
 testkoKR();
 testjaJP();
 testenGB();
 testenAU();
+testfrCA();
+testfrFR();
+testesCO();
+testesES();
