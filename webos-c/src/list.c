@@ -7,3 +7,6 @@ char *localized_string6 = (gchar*)resBundle_getLocString(_g_res_bundle_object, "
 char *localized_string7 = (gchar*)resBundle_getLocString(_g_res_bundle_object, "Please enter password.");
 char *localized_string8 = (gchar*)resBundle_getLocString(_g_res_bundle_object, "Others");
 char *localized_string9 = (gchar*)resBundle_getLocString(_g_res_bundle_object, "Ivory Coast");
+char *localized_string10 = (gchar*)resBundle_getLocString(_g_res_bundle_object, "Game Optimizer");
+char *localized_string11= (gchar*)resBundle_getLocString(_g_res_bundle_object, "HDMI Deep Color");
+char *localized_string12 = (gchar*)resBundle_getLocString(_g_res_bundle_object, "Exit");

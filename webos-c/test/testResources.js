@@ -1,7 +1,7 @@
 /*
  * testResources.js - test file to verify generated resources.
  *
- * Copyright © 2022 JEDLSoft
+ * Copyright © 2022-2023 JEDLSoft
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -75,10 +75,15 @@ function testenAU(){
     var result1 = loadData["Service Area Zip Code"];
     var result2 = loadData["TV Program Locks"];
     var result3 = loadData["Programme"];
+    //common data
+    var result4 = loadData["Game Optimizer"];
+    var result5 = loadData["HDMI Deep Color"]
 
     logResults(arguments.callee.name, "Service Area Postcode", result1);
     logResults(arguments.callee.name, "TV Rating Locks", result2);
     logResults(arguments.callee.name, "Programme", result3);
+    logResults(arguments.callee.name, "Game Optimiser", result4);
+    logResults(arguments.callee.name, "HDMI Deep Colour", result5);
 
     var existKey = isExistKey("en/AU/cstrings.json", "Programme");
     var existKey2 = isExistKey("en/AU/cstrings.json", "Ivory Coast");
@@ -91,10 +96,15 @@ function testenGB(){
     var result1 = loadData["Service Area Zip Code"];
     var result2 = loadData["TV Program Locks"];
     var result3 = loadData["Programme"];
+    //common data
+    var result4 = loadData["Game Optimizer"];
+    var result5 = loadData["HDMI Deep Color"];
 
     logResults(arguments.callee.name, "Service Area Postcode", result1);
     logResults(arguments.callee.name, "TV Rating Locks", result2);
     logResults(arguments.callee.name, "Programme", result3);
+    logResults(arguments.callee.name, "Game Optimiser", result4);
+    logResults(arguments.callee.name, "HDMI Deep Colour", result5);
 
     var existKey = isExistKey("en/GB/cstrings.json", "Programme");
     var existKey2 = isExistKey("en/GB/cstrings.json", "Ivory Coast");
@@ -107,31 +117,41 @@ function testfrCA(){
     var result1 = loadData["Agree"];
     var result2 = loadData["Programme"];
     var result3 = loadData["Others"];
+    var result4 = loadData["Exit"];
 
     logResults(arguments.callee.name, "D’accord", result1);
     logResults(arguments.callee.name, "Programme", result2);
     logResults(arguments.callee.name, "Autres", result3);
+    logResults(arguments.callee.name, "Quitter", result4);
 }
 
 function testfrFR(){
     var loadData = loadJSON("fr/FR/cstrings.json");
     var result1 = loadData["Agree"];
     var existKey = isExistKey("fr/FR/cstrings.json", "Others");
+    var existKey2 = isExistKey("fr/FR/cstrings.json", "Exit");
     
     logResults(arguments.callee.name, "J'accepte", result1);
     logResults(arguments.callee.name, false, existKey);
+    logResults(arguments.callee.name, false, existKey2);
 }
 
 function testesES(){
     var loadData = loadJSON("es/ES/cstrings.json");
     var result1 = loadData["Sound Out"];
+    var result2 = loadData["OK"];
+    var existKey = isExistKey("es/ES/cstrings.json", "Others");
     logResults(arguments.callee.name, "Salida de sonido", result1);
+    logResults(arguments.callee.name, "OK", result2);
+    logResults(arguments.callee.name, true, existKey);
 }
 
 function testesCO(){
     var loadData = loadJSON("es/cstrings.json");
     var result1 = loadData["Sound Out"];
+    var result2 = loadData["OK"];
     logResults(arguments.callee.name, "Salida de Audio", result1);
+    logResults(arguments.callee.name, "Aceptar", result2);
 }
 
 function testjaJP(){

@@ -15,6 +15,6 @@
     "dependencies": {
         "ilib-loctool-webos-c": "^1.4.0",
         "ilib-loctool-webos-json-resource": "^1.4.1",
-        "loctool": "^2.20.0"
+        "loctool": "^2.20.2"
     }
 }
