@@ -15,7 +15,6 @@
     ],
     "excludes": [
         ".*",
-        "xliffs",
         "resources"
     ],
     "settings": {
@@ -27,9 +26,14 @@
             "en-JP",
             "es-CO",
             "es-ES",
+            "fr-CA",
+            "fr-FR",
             "ko-KR",
             "it-IT"
         ],
+        "localeMap": {
+            "fr-CA": "fr"
+        },
         "webos": {
             "commonXliff": "./common"
         }

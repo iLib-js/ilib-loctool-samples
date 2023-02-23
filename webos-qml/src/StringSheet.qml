@@ -27,7 +27,11 @@ AppStringSheet {
             qsTr("TV Program Locks") + es,
             qsTr("Service Area Zip Code") + es,
             qsTr("Time Settings") + es,
-            qsTr("Please enter password.") + es
+            qsTr("Please enter password.") + es,
+            qsTr("Game Optimizer") + es,
+            qsTr("HDMI Deep Color") + es,
+            qsTr("Exit") + es,
+            qsTr("Others") + es,
         ]
     }
 }
