@@ -140,7 +140,7 @@ function testesES(){
     var loadData = loadJSON("es/ES/cstrings.json");
     var result1 = loadData["Sound Out"];
     var result2 = loadData["OK"];
-    var existKey = isExistKey("es/ES/cstrings.json", "Others");
+    var existKey = isExistKey("es/ES/cstrings.json", "OK");
     logResults(arguments.callee.name, "Salida de sonido", result1);
     logResults(arguments.callee.name, "OK", result2);
     logResults(arguments.callee.name, true, existKey);
