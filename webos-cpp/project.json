@@ -15,7 +15,9 @@
     ],
     "excludes": [
         ".*",
+        "test",
         "xliffs",
+        "common",
         "resources"
     ],
     "settings": {

@@ -14,6 +14,9 @@ bool get_checking_update(AppLaunchingItem prelaunching_item,)
         std::string sound_label        = ResBundleAdaptor::instance().getLocString("Sound Out");
         std::string other_label        = ResBundleAdaptor::instance().getLocString("Others");
         std::string ivory_label        = ResBundleAdaptor::instance().getLocString("Ivory Coast");
+        std::string game_label        = ResBundleAdaptor::instance().getLocString("Game Optimizer");
+        std::string hdmi_label        = ResBundleAdaptor::instance().getLocString("HDMI Deep Color");
+
     }
     else // required
     {
@@ -22,6 +25,8 @@ bool get_checking_update(AppLaunchingItem prelaunching_item,)
         std::string yes_label          = ResBundleAdaptor::instance().getLocString("Yes"); // i18n
         // (no button)
         std::string no_label           = ResBundleAdaptor::instance().getLocString("No"); // i18n
+        std::string exit_label           = ResBundleAdaptor::instance().getLocString("Exit");
+        std::string ok_label           = ResBundleAdaptor::instance().getLocString("OK");
         std::string agree_label        = ResBundleAdaptor::instance().getLocString("Agree");
         std::string program_label      = ResBundleAdaptor::instance().getLocString("Programme");
         std::string ivory_label        = ResBundleAdaptor::instance().getLocString("Ivory Coast");
