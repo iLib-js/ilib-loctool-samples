@@ -13,8 +13,8 @@
         "test": "node test/testResources.js"
     },
     "dependencies": {
-        "ilib-loctool-webos-cpp": "^1.4.0",
-        "ilib-loctool-webos-json-resource": "^1.4.1",
-        "loctool": "^2.20.0"
+        "ilib-loctool-webos-cpp": "^1.5.0",
+        "ilib-loctool-webos-json-resource": "^1.4.2",
+        "loctool": "^2.20.2"
     }
 }
