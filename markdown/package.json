@@ -11,7 +11,7 @@
         "test": "echo success"
     },
     "devDependencies": {
-        "ilib-loctool-ghfm": "^1.10.0",
-        "loctool": "^2.16.3"
+        "ilib-loctool-ghfm": "^1.11.0",
+        "loctool": "^2.20.2"
     }
 }

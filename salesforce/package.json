@@ -12,6 +12,6 @@
     },
     "devDependencies": {
         "ilib-loctool-salesforce-metaxml": "^1.1.1",
-        "loctool": "^2.16.3"
+        "loctool": "^2.20.2"
     }
 }

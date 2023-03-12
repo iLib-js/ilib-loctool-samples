@@ -11,7 +11,7 @@
         "test": "echo success"
     },
     "devDependencies": {
-        "ilib-loctool-po": "^1.6.1",
-        "loctool": "^2.16.3"
+        "ilib-loctool-po": "^1.6.2",
+        "loctool": "^2.20.2"
     }
 }

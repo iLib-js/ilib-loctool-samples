@@ -18,7 +18,8 @@
         "xliffs",
         "resources",
         "package.json",
-        "package-lock.json"
+        "package-lock.json",
+		"node_modules"
     ],
     "settings": {
         "xliffsDir": "./xliffs",

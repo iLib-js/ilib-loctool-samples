@@ -13,8 +13,8 @@
     },
     "devDependencies": {
         "ilib-loctool-javascript": "^1.1.1",
-        "ilib-loctool-json": "^1.3.0",
-        "loctool": "^2.19.0"
+        "ilib-loctool-json": "^1.5.0",
+        "loctool": "^2.20.2"
     },
     "dependencies": {
         "ilib-resbundle": "^1.0.1"
