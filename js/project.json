@@ -19,7 +19,7 @@
         "resources",
         "package.json",
         "package-lock.json",
-		"node_modules"
+    	"node_modules"
     ],
     "settings": {
         "xliffsDir": "./xliffs",

@@ -10,7 +10,7 @@
     "excludes": [
         "xliffs",
         "locale",
-		"node_modules"
+    	"node_modules"
     ],
     "settings": {
         "xliffsDir": "./xliffs",
