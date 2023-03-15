@@ -13,8 +13,8 @@
         "test": "echo success"
     },
     "devDependencies": {
-        "ilib-loctool-javascript": "^1.1.1",
-        "ilib-loctool-javascript-resource": "^1.0.4",
+        "ilib-loctool-javascript": "^1.1.2",
+        "ilib-loctool-javascript-resource": "^1.0.5",
         "loctool": "^2.20.2"
     },
     "dependencies": {

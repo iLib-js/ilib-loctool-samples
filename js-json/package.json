@@ -12,8 +12,8 @@
         "test": "npm run loc ; node src/t1.js"
     },
     "devDependencies": {
-        "ilib-loctool-javascript": "^1.1.1",
-        "ilib-loctool-json": "^1.5.0",
+        "ilib-loctool-javascript": "^1.1.2",
+        "ilib-loctool-json": "^1.5.1",
         "loctool": "^2.20.2"
     },
     "dependencies": {
