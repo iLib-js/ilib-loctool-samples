@@ -16,9 +16,7 @@
     "excludes": [
         ".*",
         "xliffs",
-        "resources",
-        "package.json",
-        "package-lock.json"
+        "resources"
     ],
     "settings": {
         "xliffsDir": "./xliffs",
