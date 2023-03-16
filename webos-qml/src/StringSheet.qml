@@ -32,6 +32,7 @@ AppStringSheet {
             qsTr("HDMI Deep Color") + es,
             qsTr("Exit") + es,
             qsTr("Others") + es,
+            qsTr("Don\'t save") + es
         ]
     }
 }
