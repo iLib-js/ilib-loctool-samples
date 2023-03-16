@@ -28,8 +28,8 @@
             "es-ES",
             "fr-CA",
             "fr-FR",
-            "ko-KR",
-            "it-IT"
+            "it-IT",
+            "ko-KR"
         ],
         "localeMap": {
             "fr-CA": "fr"
