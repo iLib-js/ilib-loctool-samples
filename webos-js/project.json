@@ -18,8 +18,7 @@
         ".*",
         "test",
         "xliffs",
-        "common",
-    	"node_modules"
+        "common"
     ],
     "settings": {
         "xliffsDir": "./xliffs",
