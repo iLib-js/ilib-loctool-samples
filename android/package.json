@@ -11,8 +11,8 @@
         "test": "echo success"
     },
     "devDependencies": {
-        "ilib-loctool-android-resource": "^1.0.1",
-        "ilib-loctool-android-layout": "^1.0.1",
-        "loctool": "^2.16.3"
+        "ilib-loctool-android-layout": "^1.0.2",
+        "ilib-loctool-android-resource": "^1.0.2",
+        "loctool": "^2.20.2"
     }
 }

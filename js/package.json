@@ -13,9 +13,9 @@
         "test": "echo success"
     },
     "devDependencies": {
-        "ilib-loctool-javascript": "^1.1.1",
-        "ilib-loctool-javascript-resource": "^1.0.4",
-        "loctool": "^2.19.0"
+        "ilib-loctool-javascript": "^1.1.2",
+        "ilib-loctool-javascript-resource": "^1.0.5",
+        "loctool": "^2.20.2"
     },
     "dependencies": {
         "ilib-resbundle": "^1.0.1"

@@ -16,7 +16,7 @@
         "test-generate:all": "npm-run-all clean loc-generate test-generate"
     },
     "dependencies": {
-        "ilib": "^14.16.0",
+        "ilib": "^14.17.0",
         "ilib-loctool-webos-appinfo-json": "^1.5.0",
         "ilib-loctool-webos-javascript": "^1.8.0",
         "ilib-loctool-webos-json-resource": "^1.4.2",
