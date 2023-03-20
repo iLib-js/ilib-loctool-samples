@@ -50,6 +50,12 @@
           <target>[App] 시간 설정</target>
         </segment>
       </unit>
+      <unit id="9">
+        <segment>
+          <source>Live TV</source>
+          <target>현재 방송</target>
+        </segment>
+      </unit>
     </group>
   </file>
 </xliff>
