@@ -35,4 +35,8 @@ AppStringSheet {
             qsTr("Don\'t save") + es
         ]
     }
+    Text {
+        id: checkNetworkDescription
+        text: qsTr("Network is not connected.\nPlease check the Network Settings and try again.") + Settings.l10n.tr
+    }
 }
