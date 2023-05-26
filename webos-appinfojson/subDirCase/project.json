@@ -17,24 +17,14 @@
         ".*",
         "xliffs",
         "resources",
-        "common",
-        "subDirCase"
+        "common"
     ],
     "settings": {
         "xliffsDir": "./xliffs",
         "locales":[
-            "en-AU",
-            "en-GB",
-            "en-US",
-            "es-CO",
-            "es-ES",
-            "fr-CA",
-            "fr-FR",
-            "it-IT",
             "ko-KR",
-            "zh-Hans-CN",
-            "zh-Hant-HK",
-            "zh-Hant-TW"
+            "ru-RU",
+            "zh-Hans-CN"
         ],
         "webos": {
             "commonXliff": "./common"
