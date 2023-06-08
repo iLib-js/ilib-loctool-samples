@@ -31,7 +31,7 @@
         "webos": {
             "commonXliff": "./common"
         },
-        "json": {
+        "jsonMap": {
             "mappings": {
                 "**/appinfo.json": {
                     "template": "[dir]/[resourceDir]/[localeDir]/[filename]"
