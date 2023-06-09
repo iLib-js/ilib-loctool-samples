@@ -8,7 +8,7 @@
         "loc": "loctool -2 --xliffStyle custom --localeMap es-CO:es --localeInherit en-AU:en-GB",
         "debug": "node --inspect-brk node_modules/loctool/loctool.js -2 --xliffStyle custom --localeMap es-CO:es --localeInherit en-AU:en-GB",
         "clean": "rm -rf *.xliff resources",
-        "test": "echo success"
+        "test": "node test/testResources.js"
     },
     "devDependencies": {
         "ilib-loctool-webos-appinfo-json": "^1.6.1",

@@ -23,9 +23,9 @@ var defaultRSPath = path.join(process.cwd(), "resources");
 
 function logResults(testname, expected, actual) {
     if (expected === actual) {
-        console.log(testname + " is passed.");
+        console.log(testname + " has passed.");
     } else {
-        console.log(testname + " is failed." +  "\n\texpected:\t"+expected+"\tactual:\t\t"+actual);
+        console.log(testname + " has failed." +  "\n\texpected:\t"+expected+"\tactual:\t\t"+actual);
     }
 }
    

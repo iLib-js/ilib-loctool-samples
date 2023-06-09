@@ -5,7 +5,7 @@
       <unit id="common_1">
         <segment>
           <source>Live TV</source>
-          <target>Canali TV</target>
+          <target>[common]Canali TV</target>
         </segment>
       </unit>
     </group>
