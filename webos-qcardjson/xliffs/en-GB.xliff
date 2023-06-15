@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="2.0" srcLang="en-KR" trgLang="en-GB" xmlns:l="http://ilib-js.com/loctool">
+  <file id="sample-webos-qcardinfo_f1" original="sample-webos-qcardinfo">
+    <group id="sample-webos-qcardinfo_g1" name="javascript">
+      <unit id="1">
+        <segment>
+          <source>Live TV</source>
+          <target>(en-GB) Live TV</target>
+        </segment>
+      </unit>
+      <unit id="2">
+        <segment>
+          <source>test</source>
+          <target>(dup) test</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>
