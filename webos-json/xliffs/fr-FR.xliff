@@ -8,6 +8,18 @@
           <target>(fr) Live TV</target>
         </segment>
       </unit>
+      <unit id="2">
+        <segment>
+          <source>Sports</source>
+          <target>Sports</target>
+        </segment>
+      </unit>
+      <unit id="3">
+        <segment>
+          <source>All sports information in one place</source>
+          <target>Toutes les informations sportives rassemblées au même endroit</target>
+        </segment>
+      </unit>
     </group>
   </file>
 </xliff>

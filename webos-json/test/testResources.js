@@ -133,6 +133,23 @@ function test_koKR_qcardinfo(){
     logResults(arguments.callee.name, "스포츠 정보를 한눈에", result2);
 }
 
+function test_frFR_qcardinfo(){
+    var loadData = loadJSON("fr/qcardinfo.json");
+    var result1 = loadData["title"];
+    var result2 = loadData["description"];
+    logResults(arguments.callee.name, "Sports", result1);
+    logResults(arguments.callee.name, "Toutes les informations sportives rassemblées au même endroit", result2);
+}
+
+function test_frCA_qcardinfo(){
+    var loadData = loadJSON("fr/CA/qcardinfo.json");
+    var result = loadData["description"];
+    logResults(arguments.callee.name, "Tous les renseignements sportifs en un seul endroit", result);
+
+    var existKey = isExistKey("fr/CA/qcardinfo.json", "title");
+    logResults(arguments.callee.name, false, existKey);
+}
+
 console.log("\n***** `Run testResources.js` file (appinfo.json) *****");
 test_koKR();
 test_enUS();
@@ -149,3 +166,5 @@ test_zhHantTW();
 
 console.log("\n***** `Run testResources.js` file (qcardinfo.json) *****");
 test_koKR_qcardinfo();
+test_frFR_qcardinfo();
+test_frCA_qcardinfo();
