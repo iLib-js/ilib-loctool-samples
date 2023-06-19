@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="2.0" srcLang="en-KR" trgLang="fr-FR" xmlns:l="http://ilib-js.com/loctool">
-  <file id="sample-webos-qcardinfo_f1" original="sample-webos-qcardinfo">
-    <group id="sample-webos-qcardinfo_g1" name="javascript">
+  <file id="sample-webos-json_f1" original="sample-webos-json">
+    <group id="sample-webos-json_g1" name="javascript">
       <unit id="1">
         <segment>
           <source>Live TV</source>

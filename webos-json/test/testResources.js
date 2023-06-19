@@ -50,8 +50,6 @@ function isExistKey(filepath, key){
     return false;
 }
 
-console.log("\n***** `Run testResources.js` file *****");
-
 function test_koKR(){
     var loadData = loadJSON("ko/appinfo.json");
     var result1 = loadData["title"];
@@ -127,6 +125,15 @@ function test_zhHantTW(){
     logResults(arguments.callee.name, "直播電視", result1);
 }
 
+function test_koKR_qcardinfo(){
+    var loadData = loadJSON("ko/qcardinfo.json");
+    var result1 = loadData["title"];
+    var result2 = loadData["description"];
+    logResults(arguments.callee.name, "스포츠", result1);
+    logResults(arguments.callee.name, "스포츠 정보를 한눈에", result2);
+}
+
+console.log("\n***** `Run testResources.js` file (appinfo.json) *****");
 test_koKR();
 test_enUS();
 test_enAU();
@@ -139,3 +146,6 @@ test_itIT();
 test_zhHansCN();
 test_zhHantHK();
 test_zhHantTW();
+
+console.log("\n***** `Run testResources.js` file (qcardinfo.json) *****");
+test_koKR_qcardinfo();

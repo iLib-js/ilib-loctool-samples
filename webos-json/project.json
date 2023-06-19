@@ -1,6 +1,6 @@
 {
-    "name": "sample-webos-qcardinfo",
-    "id": "sample-webos-qcardinfo",
+    "name": "sample-webos-json",
+    "id": "sample-webos-json",
     "projectType": "custom",
     "sourceLocale": "en-KR",
     "pseudoLocale": ["zxx-XX", "zxx-Cyrl-XX", "zxx-Hans-XX", "zxx-Hebr-XX"],
