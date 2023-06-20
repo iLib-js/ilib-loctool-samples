@@ -56,9 +56,11 @@ function testkoKR(){
     var loadData = loadJSON("ko/cppstrings.json");
     var result1 = loadData["No"];
     var result2 = loadData["Update"];
+    var result3 = loadData["Do you want to change the settings from 'Digital Sound Output' to 'Pass Through' to minimize audio delay while playing game?"];
                   
     logResults(arguments.callee.name, "아니오", result1);
     logResults(arguments.callee.name, "업데이트", result2);
+    logResults(arguments.callee.name, "'디지털 음향 내보내기' 를 오디오 지연을 최소화하여 게임을 즐길 수 있는 'Pass Through'로 변경할까요?", result3);
 }
 
 function testenUS(){
