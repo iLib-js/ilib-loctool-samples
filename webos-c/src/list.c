@@ -10,3 +10,4 @@ char *localized_string9 = (gchar*)resBundle_getLocString(_g_res_bundle_object, "
 char *localized_string10 = (gchar*)resBundle_getLocString(_g_res_bundle_object, "Game Optimizer");
 char *localized_string11= (gchar*)resBundle_getLocString(_g_res_bundle_object, "HDMI Deep Color");
 char *localized_string12 = (gchar*)resBundle_getLocString(_g_res_bundle_object, "Exit");
+char *localized_string13 = (gchar*)resBundle_getLocString(_g_res_bundle_object, "Do you want to change the settings from \'Digital Sound Output\' to \'Pass Through\' to minimize audio delay while playing game?");

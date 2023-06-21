@@ -20,6 +20,12 @@
           <target>J'accepte</target>
         </segment>
       </unit>
+      <unit id="4">
+        <segment>
+          <source>Do you want to change the settings from 'Digital Sound Output' to 'Pass Through' to minimize audio delay while playing game?</source>
+          <target>Souhaitez-vous modifier les paramètres de « Sortie audio numérique » en « Interconnexion » pour limiter le décalage audio pendant le jeu ?</target>
+        </segment>
+      </unit>
     </group>
   </file>
 </xliff>

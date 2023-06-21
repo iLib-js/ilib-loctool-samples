@@ -32,6 +32,12 @@
           <target>[App] 시간 설정</target>
         </segment>
       </unit>
+      <unit id="6">
+        <segment>
+          <source>Do you want to change the settings from 'Digital Sound Output' to 'Pass Through' to minimize audio delay while playing game?</source>
+          <target>'디지털 음향 내보내기' 를 오디오 지연을 최소화하여 게임을 즐길 수 있는 'Pass Through'로 변경할까요?</target>
+        </segment>
+      </unit>
     </group>
   </file>
 </xliff>
