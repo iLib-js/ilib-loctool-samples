@@ -56,9 +56,11 @@ function testkoKR(){
     var loadData = loadJSON("ko/cstrings.json");
     var result1 = loadData["No"];
     var result2 = loadData["OK"];
+    var result3 = loadData["Do you want to change the settings from 'Digital Sound Output' to 'Pass Through' to minimize audio delay while playing game?"];
                   
     logResults(arguments.callee.name, "아니오", result1);
     logResults(arguments.callee.name, "확인", result2);
+    logResults(arguments.callee.name, "'디지털 음향 내보내기' 를 오디오 지연을 최소화하여 게임을 즐길 수 있는 'Pass Through'로 변경할까요?", result3);
 }
 
 function testenUS(){
@@ -118,20 +120,24 @@ function testfrCA(){
     var result2 = loadData["Programme"];
     var result3 = loadData["Others"];
     var result4 = loadData["Exit"];
+    var result5 = loadData["Do you want to change the settings from 'Digital Sound Output' to 'Pass Through' to minimize audio delay while playing game?"];
 
     logResults(arguments.callee.name, "D’accord", result1);
     logResults(arguments.callee.name, "Programme", result2);
     logResults(arguments.callee.name, "Autres", result3);
     logResults(arguments.callee.name, "Quitter", result4);
+    logResults(arguments.callee.name, "Voulez-vous changer les paramètres de « Sortie audio numérique » à « Passage » pour minimiser le délai audio pendant les jeux?", result5);
 }
 
 function testfrFR(){
     var loadData = loadJSON("fr/FR/cstrings.json");
     var result1 = loadData["Agree"];
+    var result2 = loadData["Do you want to change the settings from 'Digital Sound Output' to 'Pass Through' to minimize audio delay while playing game?"];
     var existKey = isExistKey("fr/FR/cstrings.json", "Others");
     var existKey2 = isExistKey("fr/FR/cstrings.json", "Exit");
     
     logResults(arguments.callee.name, "J'accepte", result1);
+    logResults(arguments.callee.name, "Souhaitez-vous modifier les paramètres de « Sortie audio numérique » en « Interconnexion » pour limiter le décalage audio pendant le jeu ?", result2);
     logResults(arguments.callee.name, false, existKey);
     logResults(arguments.callee.name, false, existKey2);
 }

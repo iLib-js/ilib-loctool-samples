@@ -38,4 +38,7 @@ bool get_checking_update(AppLaunchingItem prelaunching_item,)
         buttons.append(yes_btn);
         buttons.append(no_btn);
     }
+    if (pResBundle) {
+        trans1 = pResBundle->getLocString("Do you want to change the settings from \'Digital Sound Output\' to \'Pass Through\' to minimize audio delay while playing game?");
+    }
 }

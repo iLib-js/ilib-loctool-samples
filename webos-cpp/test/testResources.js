@@ -56,9 +56,11 @@ function testkoKR(){
     var loadData = loadJSON("ko/cppstrings.json");
     var result1 = loadData["No"];
     var result2 = loadData["Update"];
+    var result3 = loadData["Do you want to change the settings from 'Digital Sound Output' to 'Pass Through' to minimize audio delay while playing game?"];
                   
     logResults(arguments.callee.name, "아니오", result1);
     logResults(arguments.callee.name, "업데이트", result2);
+    logResults(arguments.callee.name, "'디지털 음향 내보내기' 를 오디오 지연을 최소화하여 게임을 즐길 수 있는 'Pass Through'로 변경할까요?", result3);
 }
 
 function testenUS(){
@@ -117,6 +119,7 @@ function testfrCA(){
     var result1 = loadData["Agree"];
     var result2 = loadData["Programme"];
     var result3 = loadData["Others"];
+    var result5 = loadData["Do you want to change the settings from 'Digital Sound Output' to 'Pass Through' to minimize audio delay while playing game?"];
     //common data
     var result4 = loadData["Exit"];
 
@@ -124,15 +127,18 @@ function testfrCA(){
     logResults(arguments.callee.name, "Programme", result2);
     logResults(arguments.callee.name, "Autres", result3);
     logResults(arguments.callee.name, "Quitter", result4);
+    logResults(arguments.callee.name, "Voulez-vous changer les paramètres de « Sortie audio numérique » à « Passage » pour minimiser le délai audio pendant les jeux?", result5);
 }
 
 function testfrFR(){
     var loadData = loadJSON("fr/FR/cppstrings.json");
     var result1 = loadData["Agree"];
+    var result2 = loadData["Do you want to change the settings from 'Digital Sound Output' to 'Pass Through' to minimize audio delay while playing game?"];
     var existKey = isExistKey("fr/FR/cppstrings.json", "Others");
     var existKey2 = isExistKey("fr/FR/cppstrings.json", "Exit");
     
     logResults(arguments.callee.name, "J'accepte", result1);
+    logResults(arguments.callee.name, "Souhaitez-vous modifier les paramètres de « Sortie audio numérique » en « Interconnexion » pour limiter le décalage audio pendant le jeu ?", result2);
     logResults(arguments.callee.name, false, existKey);
     logResults(arguments.callee.name, false, existKey2);
 }
