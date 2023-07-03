@@ -1,7 +1,7 @@
 /*
  * testResources.js - test file to verify generated resources.
  *
- * Copyright © 2022 JEDLSoft
+ * Copyright © 2022-2023 JEDLSoft
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -185,6 +185,20 @@ function testdeDE(){
     logResults(arguments.callee.name, "EINSTELLUNGEN", result2);
 }
 
+function testasIN(){
+    var rb = new ResBundle({
+        locale:"as-IN",
+        basePath : defaultRSPath
+    });
+    var result1 = rb.getString("RETRY").toString();
+    var result2 = rb.getString("Restart").toString();
+
+    logResults(arguments.callee.name, "পুনৰ চেষ্টা", result1);
+    logResults(arguments.callee.name, "পুনৰাম্ভ কৰক", result2);
+}
+
+
+
 testkoKR();
 testkoUS();
 testenUS();
@@ -196,3 +210,4 @@ testesCO();
 testesES();
 testjaJP();
 testdeDE();
+testasIN();
