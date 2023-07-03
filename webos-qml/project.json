@@ -3,7 +3,13 @@
     "id": "music",
     "projectType": "webos-qml",
     "sourceLocale": "en-KR",
-    "pseudoLocale": ["zxx-XX", "zxx-Cyrl-XX", "zxx-Hans-XX", "zxx-Hebr-XX"],
+    "pseudoLocale":  {
+        "zxx-XX": "debug",
+        "zxx-Hebr-XX": "debug-rtl",
+        "zxx-Cyrl-XX": "debug-cyrillic",
+        "zxx-Hant-XX":"debug-asian",
+        "as-XX" : "debug-font"
+    },
     "resourceDirs": {
         "ts":"resources"
     },
@@ -20,6 +26,7 @@
     "settings": {
         "xliffsDir": "./xliffs",
         "locales":[
+            "as-IN",
             "en-AU",
             "en-US",
             "en-GB",

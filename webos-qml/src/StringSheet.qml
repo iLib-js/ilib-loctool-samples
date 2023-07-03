@@ -33,6 +33,8 @@ AppStringSheet {
             qsTr("Exit") + es,
             qsTr("Others") + es,
             qsTr("Don\'t save") + es
+            qsTr("RETRY") + es
+            qsTr("Restart") + es
         ]
     }
     Text {
