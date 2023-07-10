@@ -25,6 +25,9 @@ export function findMsgByCode (code) {
         case 8:
             msg.reason = $L('OK');
             break;
+        case 9:
+            msg.reason = $L('Restart');
+            break;
         default:
             msg.reason = $L('Bye');
             break;
