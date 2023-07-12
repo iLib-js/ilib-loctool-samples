@@ -12,7 +12,7 @@
     },
     "devDependencies": {
         "ilib-loctool-webos-json": "^1.0.0",
-        "loctool": "^2.21.0",
+        "loctool": "^2.22.0",
         "micromatch": "^4.0.5"
     }
 }
