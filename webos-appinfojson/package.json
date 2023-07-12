@@ -12,6 +12,6 @@
     },
     "devDependencies": {
         "ilib-loctool-webos-appinfo-json": "^1.7.0",
-        "loctool": "^2.21.0"
+        "loctool": "^2.22.0"
     }
 }
