@@ -1,0 +1,7 @@
+{
+    "id": "com.webos.app.sportsteamsettings",
+    "title": "Sports",
+    "description": "All sports information in one place",
+    "image": "$qcardImage.png",
+    "icon": "$qcard_icon.png"
+}

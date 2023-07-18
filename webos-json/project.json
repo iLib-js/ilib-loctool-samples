@@ -1,0 +1,50 @@
+{
+    "name": "sample-webos-json",
+    "id": "sample-webos-json",
+    "projectType": "custom",
+    "sourceLocale": "en-KR",
+    "pseudoLocale": ["zxx-XX", "zxx-Cyrl-XX", "zxx-Hans-XX", "zxx-Hebr-XX"],
+    "resourceDirs": {
+        "json": "resources"
+    },
+    "plugins": [
+        "ilib-loctool-webos-json"
+    ],
+    "excludes": [
+        ".*",
+        "xliffs",
+        "resources",
+        "common",
+        "subDirCase"
+    ],
+    "settings": {
+        "xliffsDir": "./xliffs",
+        "locales":[
+            "en-AU",
+            "en-GB",
+            "en-US",
+            "es-CO",
+            "es-ES",
+            "fr-CA",
+            "fr-FR",
+            "it-IT",
+            "ko-KR",
+            "zh-Hans-CN",
+            "zh-Hant-HK",
+            "zh-Hant-TW"
+        ],
+        "webos": {
+            "commonXliff": "./common"
+        },
+        "jsonMap": {
+            "mappings": {
+                "**/appinfo.json": {
+                    "template": "[dir]/[resourceDir]/[localeDir]/[filename]"
+                },
+                "**/qcardinfo.json": {
+                    "template": "[dir]/[resourceDir]/[localeDir]/[filename]"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "sample-webos-qcardinfo",
+    "description": "Sample localization project",
+    "repository": "git@github.com:iLib-js/ilib-loctool-samples.git",
+    "license": "Apache-2.0",
+    "version": "1.0.0",
+    "scripts": {
+        "loc": "loctool -2 --xliffStyle custom --localeMap es-CO:es --localeInherit en-AU:en-GB",
+        "debug": "node --inspect-brk node_modules/loctool/loctool.js -2 --xliffStyle custom --localeMap es-CO:es --localeInherit en-AU:en-GB",
+        "clean": "rm -rf *.xliff resources",
+        "test": "node test/testResources.js"
+    },
+    "devDependencies": {
+        "ilib-loctool-webos-json": "^1.0.0",
+        "loctool": "^2.22.0"
+    }
+}
