@@ -7,7 +7,7 @@
         "zxx-XX": "debug",
         "zxx-Hebr-XX": "debug-rtl",
         "zxx-Cyrl-XX": "debug-cyrillic",
-        "zxx-Hant-XX":"debug-asian",
+        "zxx-Hans-XX":"debug-asian",
         "as-XX" : "debug-font"
     },
     "resourceDirs": {
@@ -18,7 +18,7 @@
     },
     "plugins": [
         "ilib-loctool-webos-javascript",
-        "ilib-loctool-webos-appinfo-json"
+        "ilib-loctool-webos-json"
     ],
     "excludes": [
         ".*",
@@ -53,6 +53,16 @@
         },
         "webos": {
             "commonXliff": "./common"
+        },
+        "jsonMap": {
+            "mappings": {
+                "**/appinfo.json": {
+                    "template": "[dir]/[resourceDir]/[localeDir]/[filename]"
+                },
+                "**/qcardinfo.json": {
+                    "template": "[dir]/[resourceDir]/[localeDir]/[filename]"
+                }
+            }
         }
     }
 }
