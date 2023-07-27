@@ -7,7 +7,7 @@
         "zxx-XX": "debug",
         "zxx-Hebr-XX": "debug-rtl",
         "zxx-Cyrl-XX": "debug-cyrillic",
-        "zxx-Hant-XX":"debug-asian",
+        "zxx-Hans-XX":"debug-asian",
         "as-XX" : "debug-font"
     },
     "resourceDirs": {
