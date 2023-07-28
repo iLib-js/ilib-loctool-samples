@@ -70,6 +70,12 @@ Please check the Network Settings and try again.</source>
 네트워크 설정 확인 후 다시 시도하세요.</target>
     </segment>
    </unit>
+   <unit id="12">
+        <segment>
+            <source>This function is not supported.</source>
+            <target>사용할 수 없는 기능입니다.</target>
+        </segment>
+      </unit>
     </group>
   </file>
 </xliff>
