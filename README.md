@@ -74,7 +74,7 @@ the output goes into `resources/[locale].po`.
 - webos-js - a sample project containing JavaScript
 files to translate. It is optimized for webOS web applications
 The source files are in `src/*.js` and
-the output goes into `resources/[locale]/strings.json`.
+the output goes into `resources/[localeDir]/strings.json`.
 
 - webos-qml - a sample project containing QML
 files to translate. It is optimized for webOS qml applications
@@ -84,17 +84,22 @@ the output goes into `resources/[projectID]_[locale].ts`.
 - webos-c - a sample project containing C files to translate.
 It is optimized for webOS web applications
 The source files are in `src/*.c` and
-the output goes into `resources/[locale]/cstrings.json`.
+the output goes into `resources/[localeDir]/cstrings.json`.
 
 - webos-cpp - a sample project containing C++ files to translate.
 It is optimized for webOS web applications
 The source files are in `src/*.cpp` and
-the output goes into `resources/[locale]/cppstrings.json`.
+the output goes into `resources/[localeDir]/cppstrings.json`.
+
+- webos-json - a sample project containing json files to translate.
+It is optimized for webOS applications
+The source files are in `appinfo.json`, `qcardinfo.json` and
+the output goes into `resources/[localeDir]/[filename]`.
 
 - webos-appinfojson - a sample project containing appinfo.json files to translate.
 It is optimized for webOS web applications
 The source files are in `appinfo.json` and
-the output goes into `resources/[locale]/appinfo.json`.
+the output goes into `resources/[localeDir]/appinfo.json`.
 
 - salesforce - a sample project containing a sales for apex app
 to translate. It contains the main translation-meta.xml as well
