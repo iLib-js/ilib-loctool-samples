@@ -36,7 +36,6 @@ function loadResource(filepath){
         var options = {trim:false, nativeTypeAttribute: true, compact: true};
         var result = xmljs.xml2js(tsFile, options);
         loaddata = result.TS;
-
     }
     return loaddata;
 }
@@ -58,6 +57,7 @@ function compareOutput(funcName, contextRes, expected) {
 function line() {
     console.log("---------------------------------");
 }
+
 console.log("\n***** `Run testResources.js` file *****");
 
 function testkoKR(){
