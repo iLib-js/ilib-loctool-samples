@@ -11,7 +11,7 @@
         "test": "cd app1;node testResources.js;cd ../app2;node testResources.js"
     },
     "devDependencies": {
-        "ilib-loctool-webos-json": "^1.0.0",
+        "ilib-loctool-webos-json": "^1.1.0",
         "loctool": "^2.22.0",
         "micromatch": "^4.0.5"
     }
