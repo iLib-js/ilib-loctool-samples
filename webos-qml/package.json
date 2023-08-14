@@ -5,15 +5,19 @@
     "license": "Apache-2.0",
     "version": "1.0.0",
     "scripts": {
-        "loc": "loctool -2 --xliffStyle custom --pseudo --localeMap es-CO:es --localeInherit en-AU:en-GB,en-JP:en-GB --pseudo",
+        "loc": "loctool -2 --xliffStyle custom --localeMap es-CO:es --localeInherit en-AU:en-GB,en-JP:en-GB --pseudo",
         "debug": "node --inspect-brk node_modules/loctool/loctool.js -2 --xliffStyle custom --pseudo --localeMap es-CO:es --localeInherit en-AU:en-GB",
         "clean": "rm -rf *.xliff resources",
-        "test": "echo success"
+        "test": "node test/testResources.js",
+        "test-debug": "node --inspect-brk test/testResources.js"
     },
     "devDependencies": {
         "ilib-loctool-webos-json": "^1.1.0",
         "ilib-loctool-webos-qml": "^1.7.0",
         "ilib-loctool-webos-ts-resource": "^1.5.0",
         "loctool": "^2.22.0"
+    },
+    "dependencies": {
+        "xml-js": "^1.6.11"
     }
 }
