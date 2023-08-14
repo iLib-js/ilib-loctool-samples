@@ -1,0 +1,9 @@
+{
+    "id": "musc",
+    "version": "4.0.1",
+    "type": "web",
+    "main": "index.html",
+    "title": "Music",
+    "icon": "icon.png",
+    "vendor": "test"
+}
