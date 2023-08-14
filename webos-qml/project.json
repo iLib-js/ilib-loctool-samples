@@ -11,10 +11,12 @@
         "as-XX" : "debug-font"
     },
     "resourceDirs": {
-        "ts":"resources"
+        "ts": "resources",
+        "json": "resources"
     },
     "resourceFileTypes": {
-        "ts":"ilib-loctool-webos-ts-resource"
+        "ts": "ilib-loctool-webos-ts-resource",
+        "json": "ilib-loctool-webos-json"
     },
     "plugins": [
         "ilib-loctool-webos-qml"
@@ -43,6 +45,16 @@
         },
         "webos": {
             "commonXliff": "./common"
+        },
+        "jsonMap": {
+            "mappings": {
+                "**/appinfo.json": {
+                    "template": "[dir]/[resourceDir]/[localeDir]/[filename]"
+                }
+            }
+        },
+        "qml": {
+            "disablePseudo" : true
         }
     }
 }
