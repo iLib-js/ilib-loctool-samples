@@ -1,0 +1,15 @@
+{
+    "name": "sample-arb",
+    "description": "Sample localization project",
+    "repository": "git@github.com:iLib-js/ilib-loctool-samples.git",
+    "license": "Apache-2.0",
+    "version": "1.0.0",
+    "scripts": {
+        "loc": "loctool -2",
+        "debug": "node --inspect-brk node_modules/loctool/loctool.js -2",
+        "clean": "rm -rf *.xliff resources"
+    },
+    "dependencies": {
+        "loctool": "^2.22.0"
+    }
+}

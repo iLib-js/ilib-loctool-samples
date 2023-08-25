@@ -1,0 +1,48 @@
+{
+    "@@last_modified": "2023-08-22T15:04:08.215924",
+    "_title": "플러터 데모",
+    "@_title": {
+        "type": "text",
+        "placeholders": {}
+    },
+    "_incrementButton": "증가",
+    "@_incrementButton": {
+        "type": "text",
+        "placeholders": {}
+    },
+    "_bodyText": "You have pushed the button this many times:",
+    "@_bodyText": {
+        "type": "text",
+        "placeholders": {}
+    },
+    "_hello": "안녕하세요, {yourName}",
+    "@_hello": {
+        "description": "Say hello",
+        "type": "text",
+        "placeholders": {
+            "yourName": {
+                "example": "Sparky"
+            }
+        }
+    },
+    "HOURS": "{hours,plural, =1{Hour}other{Hours}}",
+    "@HOURS": {
+        "type": "text",
+        "placeholders": {
+            "hours": {}
+        }
+    },
+    "remainingEmailsMessage": "{howMany,plural, =0{{userName} 을 위한 메일이 없습니다.}=1{{userName}를 위한 메일이 {howMany}통 남았습니다.}other{{userName}를 위한 메일들이 {howMany}통 남았습니다.}}",
+    "@remainingEmailsMessage": {
+        "description": "How many emails remain after archiving.",
+        "type": "text",
+        "placeholders": {
+            "howMany": {
+                "example": 42
+            },
+            "userName": {
+                "example": "Fred"
+            }
+        }
+    }
+}
