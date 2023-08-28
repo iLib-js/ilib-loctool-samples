@@ -1,6 +1,6 @@
 {
-  "@@last_modified": "2023-08-22T15:04:08.215924",
-  "_title": "Flutter Demo",
+  "@@last_modified": "2023-08-28T13:51:31.807702",
+  "_title": "Thank you",
   "@_title": {
     "type": "text",
     "placeholders": {}
@@ -23,13 +23,6 @@
       "yourName": {
         "example": "Sparky"
       }
-    }
-  },
-  "HOURS": "{hours,plural, =1{Hour}other{Hours}}",
-  "@HOURS": {
-    "type": "text",
-    "placeholders": {
-      "hours": {}
     }
   },
   "remainingEmailsMessage": "{howMany,plural, =0{There are no emails left for {userName}.}=1{There is {howMany} email left for {userName}.}other{There are {howMany} emails left for {userName}.}}",

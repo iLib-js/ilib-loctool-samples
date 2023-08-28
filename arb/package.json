@@ -7,7 +7,7 @@
     "scripts": {
         "loc": "loctool -2",
         "debug": "node --inspect-brk node_modules/loctool/loctool.js -2",
-        "clean": "rm -rf *.xliff resources"
+        "clean": "rm -rf *.xliff src/intl_es.arb src/intl_ko.arb"
     },
     "dependencies": {
         "loctool": "^2.22.0"
