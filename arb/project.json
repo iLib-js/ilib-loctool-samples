@@ -4,9 +4,6 @@
     "projectType": "custom",
     "sourceLocale": "en-US",
     "pseudoLocale":  ["zxx-XX", "zxx-Hebr-XX", "zxx-Cyrl-XX", "zxx-Hans-XX"],
-    "resourceDirs": {
-        "arb":"resources"
-    },
     "plugins": [
         "ilib-loctool-arb"
     ],
