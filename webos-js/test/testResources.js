@@ -50,10 +50,11 @@ function testkoKR(){
 
     var result1 = rb.getString("TV Name : ").toString();
     var result2 = rb.getString("Time Settings").toString();
-    var result3 = rb.getString("High").toString();
+    var result3 = rb.getString("High", "volumeModeHigh").toString();
 
     logResults(arguments.callee.name, "TV Name :", result1);
-    logResults(arguments.callee.name, "높음", result2);
+    logResults(arguments.callee.name, "[App] 시간 설정", result2);
+    logResults(arguments.callee.name, "높음", result3);
 }
 
 function testkoUS(){
