@@ -68,7 +68,7 @@ function testkoKR(){
     logResults(arguments.callee.name, contextRes.length, 4);
 
     var expected = {
-        "StringSheet": [ "앨범", "오디오", "저장 안 함", "장르", "음악", '네트워크가 연결되지 않았습니다.\n네트워크 설정 확인 후 다시 시도하세요.',
+        "StringSheet": [ "앨범", "오디오", "저장 안 함", "장르", "기 본", "음악", '네트워크가 연결되지 않았습니다.\n네트워크 설정 확인 후 다시 시도하세요.',
                         "재생 중", "재생목록",'[common] 비밀번호를 입력해 주세요.', "노래", "[common] 시간 설정"],
         "context" : ["검색"],
         "sample" : ["설정"],

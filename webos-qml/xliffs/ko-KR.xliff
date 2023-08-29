@@ -76,6 +76,18 @@ Please check the Network Settings and try again.</source>
             <target>사용할 수 없는 기능입니다.</target>
         </segment>
       </unit>
+      <unit id="13" name="Menu.Standard">
+        <segment>
+            <source>Standard</source>
+            <target>기 본</target>
+        </segment>
+      </unit>
+      <unit id="14">
+        <segment>
+            <source>Standard</source>
+            <target>기 준</target>
+        </segment>
+      </unit>
     </group>
   </file>
 </xliff>
