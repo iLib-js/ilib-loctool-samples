@@ -35,6 +35,7 @@ AppStringSheet {
             qsTr("Don\'t save") + es
             qsTr("RETRY") + es
             qsTr("Restart") + es
+            qsTr("Standard", "Menu.Standard") + es
         ]
     }
     Text {

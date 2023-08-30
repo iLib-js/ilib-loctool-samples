@@ -56,6 +56,18 @@
           <target>현재 방송</target>
         </segment>
       </unit>
+      <unit id="10" name="volumeModeHigh">
+        <segment>
+          <source>High</source>
+          <target>높음</target>
+        </segment>
+      </unit>
+      <unit id="11">
+        <segment>
+          <source>High</source>
+          <target>최고</target>
+        </segment>
+      </unit>
     </group>
   </file>
 </xliff>

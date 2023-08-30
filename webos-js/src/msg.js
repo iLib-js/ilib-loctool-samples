@@ -82,6 +82,9 @@ export function findMsgByCode3 (code) {
         case 11:
             $L("Go to  'Settings > General > Channels > Channel Tuning & Settings > Transponder Edit' and add one.")
             break;
+        case 12:
+            $L({key: 'volumeModeHigh', value: 'High' });
+            break;
         default:
             msg.reason = $L('MAC Address'); // xliff_target trim
             break;
