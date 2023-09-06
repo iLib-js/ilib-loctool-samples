@@ -10,6 +10,7 @@
         "clean": "rm -rf *.xliff src/intl_es.arb src/intl_ko.arb"
     },
     "dependencies": {
-        "loctool": "^2.22.0"
+        "ilib-loctool-arb": "^1.0.0",
+        "loctool": "^2.23.1"
     }
 }
