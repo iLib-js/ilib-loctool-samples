@@ -11,7 +11,7 @@
         "test": "node test/testResources.js"
     },
     "devDependencies": {
-        "ilib-loctool-webos-json": "^1.1.3",
+        "ilib-loctool-webos-json": "^1.1.4",
         "loctool": "^2.23.1"
     }
 }
