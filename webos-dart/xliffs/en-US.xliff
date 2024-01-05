@@ -2,7 +2,7 @@
 <xliff version="2.0" srcLang="en-KR" trgLang="en-US" xmlns:l="http://ilib-js.com/loctool">
   <file id="sample-webos-dart_f1" original="sample-webos-dart">
     <group id="sample-webos-dart_g1" name="x-dart">
-      <unit id="1" name="all">
+      <unit id="1" name="Search_all">
         <segment>
           <source>Search</source>
           <target>Search</target>

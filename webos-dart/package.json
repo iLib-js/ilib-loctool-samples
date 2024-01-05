@@ -1,0 +1,17 @@
+{
+    "name": "sample-webos-dart",
+    "description": "Sample localization project",
+    "repository": "git@github.com:iLib-js/ilib-loctool-samples.git",
+    "license": "Apache-2.0",
+    "version": "1.0.0",
+    "scripts": {
+        "loc": "loctool -2 --xliffStyle custom --localizeOnly",
+        "debug": "node --inspect-brk node_modules/loctool/loctool.js -2 --xliffStyle custom --localizeOnly",
+        "clean": "rm -rf *.xliff assets",
+        "test": "node test/testResources.js"
+    },
+    "dependencies": {
+        "ilib-loctool-webos-json-resource": "^1.5.8",
+        "loctool": "^2.23.1"
+    }
+}

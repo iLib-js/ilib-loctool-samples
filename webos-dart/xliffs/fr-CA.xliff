@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="2.0" srcLang="en-KR" trgLang="fr-CA" xmlns:l="http://ilib-js.com/loctool">
+  <file id="sample-webos-dart_f1" original="sample-webos-dart">
+    <group id="sample-webos-dart_g1" name="x-dart">
+      <unit id="1" name="Search_all">
+        <segment>
+          <source>Search</source>
+          <target>Rechercher</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

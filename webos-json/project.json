@@ -1,7 +1,7 @@
 {
     "name": "sample-webos-json",
     "id": "sample-webos-json",
-    "projectType": "custom",
+    "projectType": "webos-json",
     "sourceLocale": "en-KR",
     "pseudoLocale":  {
         "zxx-XX": "debug",

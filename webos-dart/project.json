@@ -1,7 +1,7 @@
 {
     "name": "sample-webos-dart",
     "id": "sample-webos-dart",
-    "projectType": "custom",
+    "projectType": "webos-dart",
     "sourceLocale": "en-KR",
     "pseudoLocale":  {
         "zxx-XX": "debug",
@@ -11,7 +11,7 @@
         "as-XX" : "debug-font"
     },
     "resourceDirs": {
-        "json":"assets"
+        "json":"assets/i18n"
     },
     "resourceFileTypes": {
         "json":"ilib-loctool-webos-json-resource"
@@ -28,15 +28,12 @@
     "settings": {
         "xliffsDir": "./xliffs",
         "locales":[
-            "es-CO",
-            "es-ES",
-            "en-US",
-            "fr-FR",
-            "ja-JP",
-            "ko-KR"
+            "fr-CA",
+            "fr-FR"
         ],
-        "webos": {
-            "commonXliff": "./common"
+        "resourceFileNames": {
+            "dart": "[locale].json",
+            "c": "cstrings.json"
         },
         "jsonMap": {
             "mappings": {
@@ -45,6 +42,9 @@
                 },
                 "**/qcardinfo.json": {
                     "template": "[dir]/[resourceDir]/[localeDir]/[filename]"
+                },
+                "[locale].json" : {
+                    "template": "[dir]/[resourceDir]/[localeUnder].json"
                 }
             }
         }
