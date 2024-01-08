@@ -5,8 +5,8 @@
     "license": "Apache-2.0",
     "version": "1.0.0",
     "scripts": {
-        "loc": "loctool -2 --xliffStyle custom --localizeOnly",
-        "debug": "node --inspect-brk node_modules/loctool/loctool.js -2 --xliffStyle custom --localizeOnly",
+        "loc": "loctool -2 --xliffStyle custom --localeMap es-CO:es,fr-CA:fr --localeInherit en-AU:en-GB --pseudo --localizeOnly",
+        "debug": "node --inspect-brk node_modules/loctool/loctool.js -2 --xliffStyle custom --localeMap es-CO:es,fr-CA:fr --localeInherit en-AU:en-GB --pseudo --localizeOnly",
         "clean": "rm -rf *.xliff assets",
         "test": "node test/testResources.js"
     },
