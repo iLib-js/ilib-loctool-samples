@@ -28,13 +28,14 @@
     "settings": {
         "xliffsDir": "./xliffs",
         "locales":[
+            "en-US",
             "es-CO",
             "es-ES",
-            "en-US",
             "fr-CA",
             "fr-FR",
             "ja-JP",
-            "ko-KR"
+            "ko-KR",
+            "sl-SI"
         ],
         "resourceFileNames": {
             "dart": "[locale].json",

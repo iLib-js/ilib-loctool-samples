@@ -32,6 +32,12 @@
           <target>Eliminar Todo</target>
         </segment>
       </unit>
+      <unit id="5">
+        <segment>
+          <source>plural.demo</source>
+          <target>0#Por favor, comience a presionar el botón 'más'.|1#Has pulsado el botón una vez.|2#Has pulsado el botón dos veces.|#Ha pulsado el botón {num} veces.</target>
+        </segment>
+      </unit>
     </group>
   </file>
 </xliff>

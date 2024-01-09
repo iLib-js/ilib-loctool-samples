@@ -104,12 +104,18 @@ function testesCO(){
     var result3 = loadData["Back button"];
     var result4 = loadData["Delete All"];
     var result5 = loadData["Search_all"];
+    var result6 = loadData["OK"];
+    var result7 = loadData["plural.demo"];
 
     logResults(arguments.callee.name, "Lista de Aplicaciones", result1);
     logResults(arguments.callee.name, "Clasificación de Aplicación", result2);
     logResults(arguments.callee.name, "Botón regresar", result3);
     logResults(arguments.callee.name, "Eliminar Todo", result4);
     logResults(arguments.callee.name, "Buscar", result5);
+    logResults(arguments.callee.name, "Aceptar", result6);
+    logResults(arguments.callee.name, "Has pulsado el botón una vez.", result7.one);
+    logResults(arguments.callee.name, "Has pulsado el botón dos veces.", result7.two);
+    logResults(arguments.callee.name, "Ha pulsado el botón {num} veces.", result7.other);
 }
 
 function testesES(){
@@ -119,12 +125,14 @@ function testesES(){
     var result3 = loadData["Back button"];
     var result4 = loadData["Delete All"];
     var result5 = loadData["Search_all"];
+    var result6 = loadData["OK"];
 
     logResults(arguments.callee.name, "Lista de aplicaciones", result1);
     logResults(arguments.callee.name, "Clasificación de la aplicación", result2);
     logResults(arguments.callee.name, "Botón atrás", result3);
     logResults(arguments.callee.name, "Eliminar todo", result4);
     logResults(arguments.callee.name, "Búsqueda", result5);
+    logResults(arguments.callee.name, "OK", result6);
 }
 
 function testenUS(){
@@ -157,10 +165,23 @@ function testjaJP(){
     logResults(arguments.callee.name, "検索", result5);
 }
 
+function testslSI(){
+    var loadData = loadJSON("sl.json");
+    var result1 = loadData["Search_all"];
+    var result2 = loadData["1#At least 1 letter|#At least {num} letters"];
+
+    logResults(arguments.callee.name, "Iskanje", result1);
+    logResults(arguments.callee.name, "Vsaj {num} znak", result2.one);
+    logResults(arguments.callee.name, "Vsaj {num} znaka", result2.two);
+    logResults(arguments.callee.name, "Vsaj {num} znake", result2.few);
+    logResults(arguments.callee.name, "Vsaj {num} znakov", result2.other);
+}
+
 testkoKR();
 testfrCA();
 testfrFR();
 testesES();
 testesCO();
 testenUS();
-testjaJP()
+testjaJP();
+testslSI();
