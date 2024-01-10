@@ -12,6 +12,7 @@
     },
     "dependencies": {
         "ilib-loctool-webos-json-resource": "^1.5.8",
+        "ilib-loctool-webos-dart": "^1.0.0",
         "loctool": "^2.23.1"
     }
 }
