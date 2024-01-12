@@ -11,19 +11,22 @@
         "as-XX" : "debug-font"
     },
     "resourceDirs": {
-        "json":"assets/i18n"
+        "json": "resources"
     },
     "resourceFileTypes": {
         "json":"ilib-loctool-webos-json-resource"
     },
     "plugins": [
-        "ilib-loctool-webos-dart"
+        "ilib-loctool-webos-dart",
+        "ilib-loctool-webos-json"
     ],
     "excludes": [
         ".*",
         "test",
         "xliffs",
-        "common"
+        "common",
+        "resources",
+        "assets"
     ],
     "settings": {
         "xliffsDir": "./xliffs",
@@ -38,7 +41,6 @@
             "sl-SI"
         ],
         "resourceFileNames": {
-            "dart": "[locale].json",
             "c": "cstrings.json"
         },
         "localeMap": {
@@ -59,8 +61,9 @@
                 "**/qcardinfo.json": {
                     "template": "[dir]/[resourceDir]/[localeDir]/[filename]"
                 },
-                "[locale].json" : {
-                    "template": "[dir]/[resourceDir]/[localeUnder].json"
+                "**/*.dart": {
+                    "type": "dart",
+                    "template": "[dir]/assets/i18n/[localeUnder].json"
                 }
             }
         },

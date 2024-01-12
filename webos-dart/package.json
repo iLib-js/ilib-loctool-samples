@@ -7,12 +7,13 @@
     "scripts": {
         "loc": "loctool -2 --xliffStyle custom --localeMap es-CO:es,fr-CA:fr --localeInherit en-AU:en-GB --pseudo --localizeOnly",
         "debug": "node --inspect-brk node_modules/loctool/loctool.js -2 --xliffStyle custom --localeMap es-CO:es,fr-CA:fr --localeInherit en-AU:en-GB --pseudo --localizeOnly",
-        "clean": "rm -rf *.xliff assets",
+        "clean": "rm -rf *.xliff assets resources",
         "test": "node test/testResources.js"
     },
     "dependencies": {
-        "ilib-loctool-webos-json-resource": "^1.5.8",
         "ilib-loctool-webos-dart": "^1.0.0",
+        "ilib-loctool-webos-json": "^1.1.4",
+        "ilib-loctool-webos-json-resource": "^1.5.8",
         "loctool": "^2.23.1"
     }
 }
