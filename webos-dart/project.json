@@ -60,15 +60,16 @@
                 },
                 "**/qcardinfo.json": {
                     "template": "[dir]/[resourceDir]/[localeDir]/[filename]"
-                },
-                "**/*.dart": {
-                    "type": "dart",
-                    "template": "[dir]/assets/i18n/[localeUnder].json"
                 }
             }
         },
         "dart": {
-            "disablePseudo": true
+            "disablePseudo": true,
+            "mappings" : {
+                "**/*.dart": {
+                    "template": "[dir]/assets/i18n/[localeUnder].json"
+                }
+            }
         }
     }
 }
