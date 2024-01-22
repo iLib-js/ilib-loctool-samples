@@ -53,16 +53,6 @@
         "webos": {
             "commonXliff": "./common"
         },
-        "jsonMap": {
-            "mappings": {
-                "**/appinfo.json": {
-                    "template": "[dir]/[resourceDir]/[localeDir]/[filename]"
-                },
-                "**/qcardinfo.json": {
-                    "template": "[dir]/[resourceDir]/[localeDir]/[filename]"
-                }
-            }
-        },
         "dart": {
             "disablePseudo": true,
             "mappings" : {
