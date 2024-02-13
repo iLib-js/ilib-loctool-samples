@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="2.0" srcLang="en-KR" trgLang="ko-KR" xmlns:l="http://ilib-js.com/loctool">
+  <file id="sample-webos-dart_f1" original="sample-webos-dart">
+    <group id="sample-webos-json_g1" name="javascript">
+      <unit id="1">
+        <segment>
+          <source>Live TV</source>
+          <target>현재 방송</target>
+        </segment>
+      </unit>
+    </group>
+    <group id="sample-webos-dart_g1" name="x-dart">
+      <unit id="1" name="Search_all">
+        <segment>
+          <source>Search</source>
+          <target>통합 검색</target>
+        </segment>
+      </unit>
+      <unit id="2">
+        <segment>
+          <source>App List</source>
+          <target>앱 목록</target>
+        </segment>
+      </unit>
+      <unit id="3">
+        <segment>
+          <source>App Rating</source>
+          <target>앱 등급</target>
+        </segment>
+      </unit>
+      <unit id="4">
+        <segment>
+          <source>Back button</source>
+          <target>이전 버튼</target>
+        </segment>
+      </unit>
+      <unit id="5">
+        <segment>
+          <source>Delete All</source>
+          <target>모두 삭제</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

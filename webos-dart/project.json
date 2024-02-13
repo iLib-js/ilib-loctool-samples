@@ -1,7 +1,7 @@
 {
-    "name": "sample-webos-js",
-    "id": "sample-webos-js",
-    "projectType": "custom",
+    "name": "sample-webos-dart",
+    "id": "sample-webos-dart",
+    "projectType": "webos-dart",
     "sourceLocale": "en-KR",
     "pseudoLocale":  {
         "zxx-XX": "debug",
@@ -11,37 +11,38 @@
         "as-XX" : "debug-font"
     },
     "resourceDirs": {
-        "json":"resources"
+        "json": "resources"
     },
     "resourceFileTypes": {
         "json":"ilib-loctool-webos-json-resource"
     },
     "plugins": [
-        "ilib-loctool-webos-javascript",
+        "ilib-loctool-webos-dart",
         "ilib-loctool-webos-json"
     ],
     "excludes": [
         ".*",
         "test",
         "xliffs",
-        "common"
+        "common",
+        "resources",
+        "assets"
     ],
     "settings": {
         "xliffsDir": "./xliffs",
         "locales":[
-            "as-IN",
-            "de-DE",
+            "en-US",
             "es-CO",
             "es-ES",
-            "en-US",
             "fr-CA",
             "fr-FR",
             "ja-JP",
             "ko-KR",
-            "ko-US",
-            "en-AU",
-            "en-GB"
+            "sl-SI"
         ],
+        "resourceFileNames": {
+            "c": "cstrings.json"
+        },
         "localeMap": {
             "fr-CA": "fr"
         },
@@ -52,18 +53,13 @@
         "webos": {
             "commonXliff": "./common"
         },
-        "jsonMap": {
-            "mappings": {
-                "**/appinfo.json": {
-                    "template": "[dir]/[resourceDir]/[localeDir]/[filename]"
-                },
-                "**/qcardinfo.json": {
-                    "template": "[dir]/[resourceDir]/[localeDir]/[filename]"
+        "dart": {
+            "disablePseudo": true,
+            "mappings" : {
+                "**/*.dart": {
+                    "template": "[dir]/assets/i18n/[localeUnder].json"
                 }
             }
-        },
-        "javascript": {
-            "disablePseudo": true
         }
     }
 }

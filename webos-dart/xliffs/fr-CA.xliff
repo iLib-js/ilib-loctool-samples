@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="2.0" srcLang="en-KR" trgLang="fr-CA" xmlns:l="http://ilib-js.com/loctool">
+  <file id="sample-webos-dart_f1" original="sample-webos-dart">
+    <group id="sample-webos-dart_g1" name="x-dart">
+      <unit id="1" name="Search_all">
+        <segment>
+          <source>Search</source>
+          <target>Rechercher</target>
+        </segment>
+      </unit>
+      <unit id="2">
+        <segment>
+          <source>App List</source>
+          <target>Liste des applications</target>
+        </segment>
+      </unit>
+      <unit id="3">
+        <segment>
+          <source>App Rating</source>
+          <target>Évaluation de l'application</target>
+        </segment>
+      </unit>
+      <unit id="4">
+        <segment>
+          <source>Back button</source>
+          <target>Bouton Retour</target>
+        </segment>
+      </unit>
+      <unit id="5">
+        <segment>
+          <source>Delete All</source>
+          <target>Tout supprimer</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

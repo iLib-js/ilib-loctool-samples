@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="2.0" srcLang="en-KR" trgLang="es-CO" xmlns:l="http://ilib-js.com/loctool">
+  <file id="sample-webos-dart_f1" original="sample-webos-dart">
+    <group id="sample-webos-dart_g1" name="x-dart">
+      <unit id="1" name="Search_all">
+        <segment>
+          <source>Search</source>
+          <target>Buscar</target>
+        </segment>
+      </unit>
+      <unit id="2">
+        <segment>
+          <source>App List</source>
+          <target>Lista de Aplicaciones</target>
+        </segment>
+      </unit>
+      <unit id="3">
+        <segment>
+          <source>App Rating</source>
+          <target>Clasificación de Aplicación</target>
+        </segment>
+      </unit>
+      <unit id="4">
+        <segment>
+          <source>Back button</source>
+          <target>Botón regresar</target>
+        </segment>
+      </unit>
+      <unit id="5">
+        <segment>
+          <source>Delete All</source>
+          <target>Eliminar Todo</target>
+        </segment>
+      </unit>
+      <unit id="5">
+        <segment>
+          <source>plural.demo</source>
+          <target>0#Por favor, comience a presionar el botón 'más'.|1#Has pulsado el botón una vez.|2#Has pulsado el botón dos veces.|#Ha pulsado el botón {num} veces.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>
