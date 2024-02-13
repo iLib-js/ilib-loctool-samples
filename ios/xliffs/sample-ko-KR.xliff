@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+  <file original="objc/en-US.lproj/chocolate.strings" source-language="en-US" target-language="ko-KR" product-name="sample">
+    <body>
+      <trans-unit id="1" resname="thank" restype="string" datatype="x-xib">
+        <source>Are you a member?</source>
+        <target state="translated">당신은 멤버입니까?</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
