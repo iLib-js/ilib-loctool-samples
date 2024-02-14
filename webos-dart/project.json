@@ -40,9 +40,6 @@
             "ko-KR",
             "sl-SI"
         ],
-        "resourceFileNames": {
-            "c": "cstrings.json"
-        },
         "localeMap": {
             "fr-CA": "fr"
         },

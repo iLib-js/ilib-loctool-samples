@@ -96,10 +96,10 @@ It is optimized for webOS applications
 The source files are in `appinfo.json`, `qcardinfo.json` and
 the output goes into `resources/[localeDir]/[filename]`.
 
-- webos-appinfojson - a sample project containing appinfo.json files to translate.
+- webos-dart - a sample project containing Dart files to translate.
 It is optimized for webOS web applications
-The source files are in `appinfo.json` and
-the output goes into `resources/[localeDir]/appinfo.json`.
+The source files are in `src/*.dart` and
+the output goes into `assets/i18n/[localeUnder].json`.
 
 - salesforce - a sample project containing a sales for apex app
 to translate. It contains the main translation-meta.xml as well
@@ -128,7 +128,7 @@ that you can apply the correct settings to the right files.
 
 # License
 
-Copyright (c) 2021-2023, JEDLSoft
+Copyright (c) 2021-2024, JEDLSoft
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
