@@ -40,6 +40,12 @@
           <target>모두 삭제</target>
         </segment>
       </unit>
+      <unit id="5">
+        <segment>
+        <source>{appName} app cannot be deleted.</source>
+        <target>{appName}앱은 삭제될 수 없습니다.</target>
+        </segment>
+      </unit>
     </group>
   </file>
 </xliff>
