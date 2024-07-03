@@ -32,6 +32,12 @@
           <target>Delete All</target>
         </segment>
       </unit>
+      <unit id="5">
+        <segment>
+        <source>{appName} app cannot be deleted.</source>
+        <target>{appName} app cannot be deleted.</target>
+        </segment>
+      </unit>
     </group>
   </file>
 </xliff>

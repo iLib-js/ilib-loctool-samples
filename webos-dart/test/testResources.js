@@ -59,12 +59,14 @@ function testkoKR(){
     var result3 = loadData["Back button"];
     var result4 = loadData["Delete All"];
     var result5 = loadData["Search_all"];
+    var result6 = loadData["{appName} app cannot be deleted."];
                   
     logResults(arguments.callee.name, "앱 목록", result1);
     logResults(arguments.callee.name, "앱 등급", result2);
     logResults(arguments.callee.name, "이전 버튼", result3);
     logResults(arguments.callee.name, "모두 삭제", result4);
     logResults(arguments.callee.name, "통합 검색", result5);
+    logResults(arguments.callee.name, "{appName}앱은 삭제될 수 없습니다.", result6);
 }
 
 function testfrCA(){
@@ -142,12 +144,14 @@ function testenUS(){
     var result3 = loadData["Back button"];
     var result4 = loadData["Delete All"];
     var result5 = loadData["Search_all"];
+    var result6 = loadData["{appName} app cannot be deleted."];
 
     logResults(arguments.callee.name, "App List", result1);
     logResults(arguments.callee.name, "App Rating", result2);
     logResults(arguments.callee.name, "Back button", result3);
     logResults(arguments.callee.name, "Delete All", result4);
     logResults(arguments.callee.name, "Search", result5);
+    logResults(arguments.callee.name, "{appName} app cannot be deleted.", result6);
 }
 
 function testjaJP(){

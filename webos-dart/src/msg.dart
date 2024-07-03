@@ -9,3 +9,8 @@ translatePlural('plural.demo', _counter);
 translatePlural('1#At least 1 letter|#At least {num} letters', num);
 
 translate("OK");
+
+translate(
+  '{appName} app cannot be deleted.',
+    args: {'appName': 'Settings'}
+    ),
