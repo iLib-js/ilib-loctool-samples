@@ -1,0 +1,6 @@
+{
+    "string1": "Hello",
+    "string2": "Thank *you*",
+    "string3": "This _is a *test* with a unique id_",
+    "string4": "This is a *test* with a slack <http://www.slack.com/|link> in it and a <@user|User> reference."
+}
