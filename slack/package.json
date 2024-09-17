@@ -12,7 +12,7 @@
         "test": "echo success"
     },
     "devDependencies": {
-        "ilib-loctool-mrkdwn": "file:../../../../../../../home/edwin/ht/ilib-loctool-mrkdwn/ilib-loctool-mrkdwn-1.0.0.tgz",
+        "ilib-loctool-mrkdwn": "^1.0.0",
         "loctool": "^2.25.1"
     }
 }
