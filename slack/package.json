@@ -13,6 +13,6 @@
     },
     "devDependencies": {
         "ilib-loctool-mrkdwn": "^1.0.0",
-        "loctool": "^2.25.1"
+        "loctool": "^2.25.2"
     }
 }
