@@ -1,10 +1,11 @@
 # ilib-loctool-samples/slack
 
 This project contains a sample of a project that has slack
-mrkdwn strings encoded in a a json file. Each file has the
-simple json property-value format:
+mrkdwn strings encoded in a js file. Each file exports a
+simple javascript object with the following format:
 
 ```
+    // comment for the following string
     "unique-id": "a string in slack mrkdwn syntax"
 ```
 
@@ -34,9 +35,9 @@ Before you start, run `npm install` first to install everything.
 Here are the targets you can run:
 
 - loc - run the localization tool on this project. Input is in
-translations/strings.json, and the output is in 
-translations/de/DE/strings.json and
-translations/ko/KR/strings.json
+translations/strings.js, and the output is in
+translations/de/DE/strings.js and
+translations/ko/KR/strings.js
 - debug - run the localization tool on this project with the
 chrome debugging tools. Open `chrome://inspect/#devices` in
 chrome and click on "Open dedicated DevTools for Node" to watch

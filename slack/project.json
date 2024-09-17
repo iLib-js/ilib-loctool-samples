@@ -23,7 +23,7 @@
         ],
         "mrkdwn": {
             "mappings": {
-                "**/*.json": {
+                "**/*.js": {
                     "template": "[dir]/[localeDir]/[filename]"
                 }
             }

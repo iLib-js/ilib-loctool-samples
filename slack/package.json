@@ -1,5 +1,5 @@
 {
-    "name": "sample-slack-json",
+    "name": "sample-slack-js",
     "type": "module",
     "description": "Sample localization project",
     "repository": "git@github.com:iLib-js/ilib-loctool-samples.git",
