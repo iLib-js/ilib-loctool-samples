@@ -103,7 +103,7 @@ function testenJP(){
     logResults(arguments.callee.name, contextRes.length, 1);
 
     var expected = {
-        "StringSheet": ["(common) App Name\n(A to Z)", "Game Optimiser", "HDMI Deep Colour", "Service Area Postcode", "TV Rating Locks"]
+        "StringSheet": ["(common) App Name\n(A to Z)", "Game Optimiser", "HDMI Deep Colour", "(enGB) Loading.\nPlease wait.", "Service Area Postcode", "TV Rating Locks"]
     }
     compareOutput("testenJP", contextRes, expected);
     line();
@@ -117,7 +117,7 @@ function testenGB(){
     logResults(arguments.callee.name, contextRes.length, 1);
 
     var expected = {
-        "StringSheet": ["(common) App Name\n(A to Z)", "Game Optimiser", "HDMI Deep Colour", "Service Area Postcode", "TV Rating Locks"]
+        "StringSheet": ["(common) App Name\n(A to Z)", "Game Optimiser", "HDMI Deep Colour", "(enGB) Loading.\nPlease wait.", "Service Area Postcode", "TV Rating Locks"]
     }
     compareOutput("testenGB", contextRes, expected);
     line();
@@ -130,7 +130,7 @@ function testenAU(){
     logResults(arguments.callee.name, contextRes.length, 1);
 
     var expected = {
-        "StringSheet": ["(common) App Name\n(A to Z)", "Game Optimiser", "HDMI Deep Colour", "Service Area Postcode", "TV Rating Locks"]
+        "StringSheet": ["(common) App Name\n(A to Z)", "Game Optimiser", "HDMI Deep Colour", "(enGB) Loading.\nPlease wait.", "Service Area Postcode", "TV Rating Locks"]
     }
     compareOutput("testenAU", contextRes, expected);
     line();
