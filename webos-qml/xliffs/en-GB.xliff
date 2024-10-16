@@ -14,6 +14,12 @@
           <target>Service Area Postcode</target>
         </segment>
       </unit>
+      <!-- <unit id="3">
+        <segment>
+            <source>Loading.\nPlease wait.</source>
+            <target>(enGB) Loading.\nPlease wait.</target>
+        </segment>
+      </unit> -->
     </group>
   </file>
 </xliff>

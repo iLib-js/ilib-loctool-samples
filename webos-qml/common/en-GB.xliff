@@ -14,6 +14,12 @@
           <target>HDMI Deep Colour</target>
         </segment>
       </unit>
+      <unit id="common_3">
+        <segment>
+            <source>App Name\n(A to Z)</source>
+            <target>(common) App Name\n(A to Z)</target>
+        </segment>
+      </unit>
     </group>
   </file>
 </xliff>
