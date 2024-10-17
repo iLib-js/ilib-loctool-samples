@@ -42,4 +42,9 @@ AppStringSheet {
         id: checkNetworkDescription
         text: qsTr("Network is not connected.\nPlease check the Network Settings and try again.") + Settings.l10n.tr
     }
+    Text {
+        id: loadingDescription
+        text: qsTr("Loading.\nPlease wait.") + Settings.l10n.tr
+        text: qsTr("App Name\n(A to Z)") + Settings.l10n.tr
+    }
 }

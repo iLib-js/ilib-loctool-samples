@@ -20,6 +20,12 @@
           <target>음악</target>
         </segment>
       </unit>
+      <unit id="common_4">
+        <segment>
+            <source>App Name\n(A to Z)</source>
+            <target>(common) 명칭 순</target>
+        </segment>
+      </unit>
     </group>
   </file>
 </xliff>

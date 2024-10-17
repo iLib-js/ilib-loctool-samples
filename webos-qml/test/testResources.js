@@ -68,7 +68,9 @@ function testkoKR(){
     logResults(arguments.callee.name, contextRes.length, 4);
 
     var expected = {
-        "StringSheet": [ "앨범", "오디오", "저장 안 함", "장르", "기 본", "음악", '네트워크가 연결되지 않았습니다.\n네트워크 설정 확인 후 다시 시도하세요.',
+        "StringSheet": [ "앨범", "(common) 명칭 순", "오디오", "저장 안 함", "장르",
+                        "컨텐츠 로딩 중입니다.\n잠시만 기다려 주세요.",
+                        "기 본", "음악", '네트워크가 연결되지 않았습니다.\n네트워크 설정 확인 후 다시 시도하세요.',
                         "재생 중", "재생목록",'[common] 비밀번호를 입력해 주세요.', "노래", "[common] 시간 설정"],
         "context" : ["검색"],
         "sample" : ["설정"],
@@ -101,7 +103,7 @@ function testenJP(){
     logResults(arguments.callee.name, contextRes.length, 1);
 
     var expected = {
-        "StringSheet": ["Game Optimiser", "HDMI Deep Colour", "Service Area Postcode", "TV Rating Locks"]
+        "StringSheet": ["(common) App Name\n(A to Z)", "Game Optimiser", "HDMI Deep Colour", "(enGB) Loading.\nPlease wait.", "Service Area Postcode", "TV Rating Locks"]
     }
     compareOutput("testenJP", contextRes, expected);
     line();
@@ -115,7 +117,7 @@ function testenGB(){
     logResults(arguments.callee.name, contextRes.length, 1);
 
     var expected = {
-        "StringSheet": ["Game Optimiser", "HDMI Deep Colour", "Service Area Postcode", "TV Rating Locks"]
+        "StringSheet": ["(common) App Name\n(A to Z)", "Game Optimiser", "HDMI Deep Colour", "(enGB) Loading.\nPlease wait.", "Service Area Postcode", "TV Rating Locks"]
     }
     compareOutput("testenGB", contextRes, expected);
     line();
@@ -128,7 +130,7 @@ function testenAU(){
     logResults(arguments.callee.name, contextRes.length, 1);
 
     var expected = {
-        "StringSheet": ["Game Optimiser", "HDMI Deep Colour", "Service Area Postcode", "TV Rating Locks"]
+        "StringSheet": ["(common) App Name\n(A to Z)", "Game Optimiser", "HDMI Deep Colour", "(enGB) Loading.\nPlease wait.", "Service Area Postcode", "TV Rating Locks"]
     }
     compareOutput("testenAU", contextRes, expected);
     line();
