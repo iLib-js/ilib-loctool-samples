@@ -13,7 +13,7 @@
     },
     "devDependencies": {
         "ilib-loctool-webos-json": "^1.1.5",
-        "ilib-loctool-webos-qml": "^1.7.4",
+        "ilib-loctool-webos-qml": "^1.7.5",
         "ilib-loctool-webos-ts-resource": "^1.5.4",
         "loctool": "^2.24.0"
     },
