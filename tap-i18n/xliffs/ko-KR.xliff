@@ -20,7 +20,7 @@
       </trans-unit>
       <trans-unit id="5" resname="toplevel.plurals.plural1" restype="plural" datatype="x-yaml" extype="other">
         <source>{{count}} items</source>
-        <target>{count}개 항목</target>
+        <target>{{count}}개 항목</target>
       </trans-unit>
     </body>
   </file>
