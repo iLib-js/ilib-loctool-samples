@@ -6,12 +6,14 @@
     "version": "1.0.0",
     "scripts": {
         "loc": "loctool",
+        "loc:po": "loctool --intermediateFormat po",
         "debug": "node --inspect-brk node_modules/loctool/loctool.js",
         "clean": "rm -rf *.xliff locale",
         "test": "echo success"
     },
     "devDependencies": {
         "ilib-loctool-tap-i18n": "^1.1.1",
-        "loctool": "^2.25.2"
+        "loctool": "^2.26.0",
+        "ilib-po": "^1.1.0"
     }
 }
