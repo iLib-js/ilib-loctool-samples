@@ -1,0 +1,22 @@
+{
+    "name": "sample-php-resource",
+    "type": "module",
+    "description": "Sample localization project that localizes strings into php resource files.",
+    "repository": "git@github.com:iLib-js/ilib-loctool-samples.git",
+    "license": "Apache-2.0",
+    "version": "1.0.0",
+    "scripts": {
+        "loc": "loctool",
+        "debug": "node --inspect-brk node_modules/loctool/loctool.js",
+        "clean": "rm -rf *.xliff resources",
+        "test": "echo success"
+    },
+    "devDependencies": {
+        "ilib-loctool-javascript": "^1.1.3",
+        "loctool": "^2.25.2"
+    },
+    "dependencies": {
+        "ilib-loctool-php-resource": "file:../../ilib-mono/packages/ilib-loctool-php-resource/ilib-loctool-php-resource-0.1.0.tgz",
+        "ilib-resbundle": "^1.0.2"
+    }
+}
