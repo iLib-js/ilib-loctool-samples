@@ -8,8 +8,7 @@
         "loc": "loctool",
         "loc:po": "loctool --intermediateFormat po",
         "debug": "node --inspect-brk node_modules/loctool/loctool.js",
-        "clean": "rm -rf *.xliff locale",
-        "test": "echo success"
+        "clean": "rm -rf *.xliff locale"
     },
     "devDependencies": {
         "ilib-loctool-tap-i18n": "^1.1.1",
