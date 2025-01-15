@@ -12,7 +12,7 @@
     },
     "devDependencies": {
         "ilib-loctool-tap-i18n": "^1.1.1",
-        "loctool": "^2.26.0",
+        "loctool": "^2.27.0",
         "ilib-po": "^1.1.0"
     }
 }
