@@ -12,9 +12,9 @@
     },
     "devDependencies": {
         "ilib-loctool-javascript-resource": "^1.0.7",
-        "loctool": "^2.26.0"
+        "loctool": "^2.27.0"
     },
     "dependencies": {
-        "ilib-loctool-regex": "file:../../ilib-mono/packages/ilib-loctool-regex/ilib-loctool-regex-1.0.0.tgz"
+        "ilib-loctool-regex": "file:../../ilib-mono/packages/ilib-loctool-regex/ilib-loctool-regex-0.0.0.tgz"
     }
 }
