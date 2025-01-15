@@ -1,0 +1,20 @@
+{
+    "name": "sample-regex",
+    "description": "Sample localization project for the regex-based loctool plugin",
+    "repository": "git@github.com:iLib-js/ilib-loctool-samples.git",
+    "license": "Apache-2.0",
+    "version": "1.0.0",
+    "scripts": {
+        "loc": "loctool",
+        "debug": "node --inspect-brk node_modules/loctool/loctool.js",
+        "clean": "rm -rf *.xliff resources",
+        "test": "echo success"
+    },
+    "devDependencies": {
+        "ilib-loctool-javascript-resource": "^1.0.7",
+        "loctool": "^2.26.0"
+    },
+    "dependencies": {
+        "ilib-loctool-regex": "file:../../ilib-mono/packages/ilib-loctool-regex/ilib-loctool-regex-1.0.0.tgz"
+    }
+}
