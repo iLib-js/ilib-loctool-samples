@@ -4,22 +4,24 @@
     "projectType": "custom",
     "sourceLocale": "en-US",
     "pseudoLocale": "zxx-XX",
-    "plugins": [
-        "ilib-loctool-regex"
-    ],
+    "plugins": [ "ilib-loctool-regex" ],
     "excludes": [
         "xliffs"
     ],
+    "resourceFileTypes": {
+        "javascript": "ilib-loctool-javascript-resource",
+        "php": "ilib-loctool-php-resource"
+    },
     "settings": {
         "xliffsDir": "./xliffs",
         "locales":[
             "ko-KR",
-            "ru-RU"
+            "de-DE"
         ],
         "regex": {
             "mappings": {
                 "src/**/*.jsx": {
-                    "resourceFileType": "ilib-loctool-javascript-resource",
+                    "resourceFileType": "javascript",
                     "template": "resources/[locale].json",
                     "sourceLocale": "en-US",
                     "expressions": [
@@ -39,12 +41,12 @@
                     ]
                 },
                 "src/**/*.tmpl": {
-                    "resourceFileType": "ilib-loctool-php-resource",
+                    "resourceFileType": "php",
                     "template": "resources/translations-[locale].php",
                     "sourceLocale": "en-US",
                     "expressions": [
                         {
-                            "expression": "\\{\\s*(?<source>'([^']|\\\\')*')\\s*,\\s*t:\\s*(?<key>'([^']|\\\\')*')\\s*\\}",
+                            "expression": "\\{\\s*(?<source>'([^']|\\\\')*')\\s*\\|\\s*t\\s*:\\s*(?<key>'([^']|\\\\')*')\\s*\\}",
                             "flags": "gi",
                             "datatype": "php",
                             "resourceType": "string",
