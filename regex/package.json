@@ -11,9 +11,9 @@
         "test": "echo success"
     },
     "dependencies": {
-        "ilib-loctool-javascript-resource": "^1.0.7",
+        "ilib-loctool-javascript-resource": "^1.0.6",
         "ilib-loctool-php-resource": "^1.0.0",
-        "ilib-loctool-regex": "^1.0.0",
-        "loctool": "^2.27.0"
+        "ilib-loctool-regex": "^0.0.0",
+        "loctool": "^2.26.2"
     }
 }
