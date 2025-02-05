@@ -67,6 +67,11 @@ the output goes into `resources/[localeDir]/strings.json`.
 files to translate. The source file is in `md/en-US/README.md` and
 the output goes into `locale/[locale]/README.md`.
 
+- php-resource - a sample project that shows how to use the PHP resource
+plugin. The source file are written in Javascript (we don't have a php
+plugin yet, so we needed some easy source of strings for now) and the output
+goes into `resources/Strings[locale].php`.
+
 - po - a sample project containing po
 files to translate. The source file is in `src/*.po` and
 the output goes into `resources/[locale].po`.
