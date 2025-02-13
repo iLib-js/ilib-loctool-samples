@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "Terms"; ObjectID = "2V9-YN-vxb"; */
+"2V9-YN-vxb.normalTitle" = "Terms";
+
+/* Class = "UITextField"; placeholder = "Password (6+ characters)"; ObjectID = "D5U-uX-f0O"; */
+"D5U-uX-f0O.placeholder" = "Password (6+ characters)";
+
+/* Class = "UILabel"; text = "free, private"; ObjectID = "DWd-6J-lLt"; */
+"DWd-6J-lLt.text" = "free, private";
+
+/* Class = "UILabel"; text = "account or login"; ObjectID = "EtU-AP-x2I"; */
+"EtU-AP-x2I.text" = "account or login";
+
+/* Class = "UILabel"; text = "Are you a member?"; ObjectID = "F5h-fB-tt5"; */
+"F5h-fB-tt5.text" = "Are you a member?";
+
+/* Class = "UILabel"; text = "Are you a friend?"; ObjectID = "MFI-qx-pQf"; */
+"MFI-qx-pQf.text" = "Are you a friend?";
