@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sample-json-schema",
+  "title": "Sample schema for ilib-loctool-json",
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "properties": {
+      "defaultMessage": {
+        "type": "string",
+        "localizable": true
+      },
+      "description": {
+        "type": "string",
+        "isComment": true
+      }
+    },
+    "usePropertyKeyAsResname": true,
+    "required": [
+      "defaultMessage",
+      "description"
+    ],
+    "additionalProperties": false
+  }
+}
+
