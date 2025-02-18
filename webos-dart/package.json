@@ -11,9 +11,9 @@
         "test": "node test/testResources.js"
     },
     "dependencies": {
-        "ilib-loctool-webos-dart": "^1.0.1",
-        "ilib-loctool-webos-json": "^1.1.5",
-        "ilib-loctool-webos-json-resource": "^1.6.1",
-        "loctool": "^2.24.0"
+        "ilib-loctool-webos-dart": "^1.1.1",
+        "ilib-loctool-webos-json": "^1.1.6",
+        "ilib-loctool-webos-json-resource": "^1.7.1",
+        "loctool": "^2.28.1"
     }
 }
