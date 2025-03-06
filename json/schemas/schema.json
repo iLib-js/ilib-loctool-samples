@@ -5,17 +5,18 @@
   "type": "object",
   "additionalProperties": {
     "type": "object",
+    "localizable": "key",
     "properties": {
       "defaultMessage": {
         "type": "string",
-        "localizable": true
+        "localizable": "source"
       },
       "description": {
         "type": "string",
-        "isComment": true
+        "localizable": "comment"
       }
     },
-    "usePropertyKeyAsResname": true,
+
     "required": [
       "defaultMessage",
       "description"
@@ -23,4 +24,3 @@
     "additionalProperties": false
   }
 }
-
