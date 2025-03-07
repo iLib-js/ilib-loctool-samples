@@ -76,36 +76,6 @@ goes into `resources/Strings[locale].php`.
 files to translate. The source file is in `src/*.po` and
 the output goes into `resources/[locale].po`.
 
-- webos-js - a sample project containing JavaScript
-files to translate. It is optimized for webOS web applications
-The source files are in `src/*.js` and
-the output goes into `resources/[localeDir]/strings.json`.
-
-- webos-qml - a sample project containing QML
-files to translate. It is optimized for webOS qml applications
-The source files are in `src/*.qml` and
-the output goes into `resources/[projectID]_[locale].ts`.
-
-- webos-c - a sample project containing C files to translate.
-It is optimized for webOS web applications
-The source files are in `src/*.c` and
-the output goes into `resources/[localeDir]/cstrings.json`.
-
-- webos-cpp - a sample project containing C++ files to translate.
-It is optimized for webOS web applications
-The source files are in `src/*.cpp` and
-the output goes into `resources/[localeDir]/cppstrings.json`.
-
-- webos-json - a sample project containing json files to translate.
-It is optimized for webOS applications
-The source files are in `appinfo.json`, `qcardinfo.json` and
-the output goes into `resources/[localeDir]/[filename]`.
-
-- webos-dart - a sample project containing Dart files to translate.
-It is optimized for webOS web applications
-The source files are in `src/*.dart` and
-the output goes into `assets/i18n/[localeUnder].json`.
-
 - salesforce - a sample project containing a sales for apex app
 to translate. It contains the main translation-meta.xml as well
 as a number of other meta xml files that contain the source
@@ -133,7 +103,7 @@ that you can apply the correct settings to the right files.
 
 # License
 
-Copyright (c) 2021-2024, JEDLSoft
+Copyright (c) 2021-2025, JEDLSoft
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
