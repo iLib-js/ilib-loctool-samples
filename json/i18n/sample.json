@@ -1,18 +1,18 @@
 {
-  "project.createWhateverModal.saveButton": {
-    "defaultMessage": "Save",
-    "description": "Button text for save"
+  "project.whatever.hello": {
+    "defaultMessage": "Hello",
+    "description": "A greeting"
   },
-  "project.createWhateverModal.createButton": {
-    "defaultMessage": "Create",
-    "description": "Button text for create"
+  "project.whatever.world": {
+    "defaultMessage": "World",
+    "description": "An object that greetings are directed to"
   },
-  "project.createWhateverModal.invalid": {
-    "defaultMessage": "Invalid",
-    "description": "Title for invalid"
+  "project.whatever.translate.me": {
+    "defaultMessage": "Translate me",
+    "description": "This is a string that has no translation yet"
   },
-  "project.createWhateverModal.nameLabel": {
-    "description": "Input label",
-    "defaultMessage": "Name"
+  "project.whatever.and.me": {
+    "description": "Another string that has no translation yet",
+    "defaultMessage": "And me"
   }
 }
