@@ -12,7 +12,7 @@
         "test": "npm run loc ; node src/t1.js"
     },
     "devDependencies": {
-        "ilib-loctool-json": "^1.5.1",
+        "ilib-loctool-json": "^1.5.7",
         "loctool": "^2.20.2"
     }
 }

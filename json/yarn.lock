@@ -730,10 +730,10 @@ ilib-locale@^1.2.2, ilib-locale@^1.2.4:
   dependencies:
     ilib-env "^1.4.1"
 
-ilib-loctool-json@^1.5.1:
-  version "1.5.6"
-  resolved "https://box.jfrog.io/box/api/npm/boxnpm/ilib-loctool-json/-/ilib-loctool-json-1.5.6.tgz#0eaa5c131e78203d28968443c867963d5ee366a4"
-  integrity sha512-UUp3DN5JigOn5pm+L9twLF5TyMehjxoQkNbs31ksqWLPqfLxq6JKbgk2sRXVdm3iKoCbgm8gB/EDtP/EOkt46A==
+ilib-loctool-json@^1.5.7:
+  version "1.5.7"
+  resolved "https://box.jfrog.io/box/api/npm/boxnpm/ilib-loctool-json/-/ilib-loctool-json-1.5.7.tgz#7898bf478c5060e3902772b52838bfc2fcd13c08"
+  integrity sha512-vm5cR/dAOSWV8hdvrAUO2pdyouoU1kdwQhoH41gKPxXBCdfCYjrCtUv32jmLbl2W6hcsD9z3b4x/Oo+E5Pkn3g==
   dependencies:
     ilib "^14.19.0"
     json5 "^2.2.3"
