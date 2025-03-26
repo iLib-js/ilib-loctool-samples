@@ -15,66 +15,62 @@ The project contains a single JSON file with all the strings that need localizat
 The schema file is used by the ilib-loctool-json plugin to extract strings from the JSON file.
 Detailed information on how to create a schema file can be found in the [ilib-loctool-json README](https://github.com/iLib-js/ilib-mono/blob/main/packages/ilib-loctool-json/README.md#ilib-loctool-json)
 
-It is important to note that the schema file has two custom properties:
-* `isComment`: This property indicates that the string is a comment and should be used as a comment when creating a resource. The comment is then added to the `<note>` tag in the respective translation unit in the XLIFF file.
-*`usePropertyKeyAsResname`: This property instructs the plugin to use the property key as the resource key when creating a resource. This results in using the key as the resname attribute in the respective translation unit in the XLIFF file.
+It is important to note that the schema file has custom property:
+* `localizable`: The localizable keyword specifies that the value of a property should be localized.
 
 **Example:**
+
+A JSON schema file that defines the structure of the JSON file to be localized:
 ```json
-// schema
 {
-  ...
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sample-schema",
+  "title": "Sample schema with localizable supported keywords (true, source, comment, key)",
+  "type": "object",
   "additionalProperties": {
     "type": "object",
+    "localizable": "key",
     "properties": {
-      ...
+      "defaultMessage": {
+        "type": "string",
+        "localizable": "source"
+      },
       "description": {
         "type": "string",
-        "isComment": true
+        "localizable": "comment"
       }
-    },
-    "usePropertyKeyAsResname": true,
-    ...
+    }
   }
 }
 ```
 
+JSON file that needs to be localized:
 ```json
-// JSON that needs localization
 {
-  "project.createWhateverModal.invalid": {
-    "defaultMessage": "Invalid",
-    "description": "Title for invalid"
+  "project.whatever.key": {
+    "defaultMessage": "I am a string that needs to be localized.",
+    "description": "I am a comment for the string that needs to be localized."
   }
 }
-
 ```
+
+And the resulting XLIFF file:
+
+Note that:
+* the `resname` attribute is set to the JSON object key "project.whatever.key"
+* the `source` tag is set to the value of the `defaultMessage` property, since it is marked as `localizable: "source"`
+* the `note` tag is set to the value of the `description` property, since it is marked as `localizable: "comment"`
 
 ```xml
-<!-- Resulting XLIFF -->
-<!-- Note that the `resname` attribute is set to the key of the property -->
-<!-- and the `note` tag is set to the value of the `description` property -->
-<trans-unit id="3" resname="project.createWhateverModal.invalid" restype="string" datatype="json">
-    <source>Invalid</source>
-    <note>Title for invalid</note>
+<trans-unit id="3" resname="project.whatever.key" restype="string" datatype="json">
+    <source>I am a string that needs to be localized.</source>
+    <note>I am a comment for the string that needs to be localized.</note>
 </trans-unit>
 
 ```
 
-## JSON file structure
-JSON file structure used for the sample project is as follows:
-```json
-{
-  "key": {
-    "defaultMessage": "A string that needs to be localized",
-    "description": "A description of the string that will be used as a comment in the `<note>` tag inside the translation unit in the XLIFF file"
-  }
-}
-
-```
-
 ## How it works
-1. `loctool` reads the configuration file and identifies the JSON file that needs to be localized.
+1. `loctool` reads the configuration file (`project.json`) and identifies the JSON file that needs to be localized.
 2. `loctool` extracts the strings from the JSON file using `ilib-loctool-json` plugin and saves them in an XLIFF file.
 
 ## Usage
