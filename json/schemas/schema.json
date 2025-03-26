@@ -16,7 +16,6 @@
         "localizable": "comment"
       }
     },
-
     "required": [
       "defaultMessage",
       "description"
